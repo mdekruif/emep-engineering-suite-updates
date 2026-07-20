@@ -1,8 +1,10 @@
 {
-  "version": "6.0.0",
+  "version": "6.1.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
+  "download_url": "",
+  "sha256": "",
+  "size_bytes": 0,
   "required": false,
   "published_at": "2026-07-20",
-  "notes": "V6 adds automatic update checks, a manual Check for Updates button, centralized version information, and safer installer upgrade handling."
+  "notes": "V6.1 adds verified one-click updates that can replace the complete application, including code, PDFs, templates, icons, and other bundled files."
 }
-
