@@ -1,10 +1,10 @@
 {
-  "version": "6.1.6",
+  "version": "6.1.7",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.6/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "abcefebd216b7609a551f3827aede687634621b308ccf99c372bb2dc38ba5859",
-  "size_bytes": 105566877,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.7/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "1dc8e75ef5b1cb70252c2913f6a2662a86d144f9a41a43251aa018b4766ef218",
+  "size_bytes": 105568829,
   "required": false,
   "published_at": "2026-07-28",
-  "notes": "V6.1.6 synchronizes the user's reconciled casing setting depth into the selected WBD PDF as well as the Casing Design, cementing program, and Well Summary. It also narrows the WBD cement-TOC edit area so nearby hole-size, mud, survey, and evaluation content remains intact."
+  "notes": "V6.1.7 automatically reads KOP from directional plans that identify kickoff with a Build 10 degrees per 100 ft annotation instead of the word KOP. It uses the exact annotated MD immediately before the build begins and carries that KOP into the Casing Design, WBD, Operations Summary, and Well Summary."
 }
