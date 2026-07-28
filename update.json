@@ -1,10 +1,10 @@
 {
-  "version": "6.1.5",
+  "version": "6.1.6",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.5/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "f6f93171153fdd5c23a37a6cc7a0813e5b6111605dd82fe38feaea2cae63df1e",
-  "size_bytes": 105565444,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.6/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "abcefebd216b7609a551f3827aede687634621b308ccf99c372bb2dc38ba5859",
+  "size_bytes": 105566877,
   "required": false,
   "published_at": "2026-07-28",
-  "notes": "V6.1.5 restores complete WBD PDF rendering, rejects dates as well names, fills Well Summary and WBD Section/Township/Range from the well plat, and prompts the user to reconcile casing-versus-cement setting-depth discrepancies. The cement proposal value is clearly recommended, the selected depth is used throughout the permit package, and the Casing Design PDF is regenerated when corrected."
+  "notes": "V6.1.6 synchronizes the user's reconciled casing setting depth into the selected WBD PDF as well as the Casing Design, cementing program, and Well Summary. It also narrows the WBD cement-TOC edit area so nearby hole-size, mud, survey, and evaluation content remains intact."
 }
