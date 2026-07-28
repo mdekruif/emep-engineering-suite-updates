@@ -1,10 +1,10 @@
 {
-  "version": "6.1.3",
+  "version": "6.1.4",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.3/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "62bf334c65c4cc7827aa769ddf43cf0a56c3366e02375267160c65609bdf071e",
-  "size_bytes": 99132138,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.4/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "3c10a078bddd8d8d73e21e1b4218a220f19480787647c79c68b0a62608c88f7b",
+  "size_bytes": 99130272,
   "required": false,
   "published_at": "2026-07-28",
-  "notes": "V6.1.3 adds the new Modern WBD option and connects Casing Design to the Permit Package Generator. Matching casing depths, sizes, weights, grades, connections, and overpull values now flow into permit documents, and the Casing Design PDF is copied into the permit output folder automatically."
+  "notes": "V6.1.4 fixes short searchable WBD PDFs being rejected by the Permit Package Generator. PDF reader support was present; the WBD was incorrectly being subjected to the cement proposal's longer text-length requirement."
 }
