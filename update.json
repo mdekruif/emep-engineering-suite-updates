@@ -1,10 +1,10 @@
 {
-  "version": "6.1.1",
+  "version": "6.1.3",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.1/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "c12994b0e7ee8d15889d167e72c3fa2ec6fc74b076cf7bc8fd2343e7ae3bd690",
-  "size_bytes": 99117933,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.3/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "62bf334c65c4cc7827aa769ddf43cf0a56c3366e02375267160c65609bdf071e",
+  "size_bytes": 99132138,
   "required": false,
-  "published_at": "2026-07-27",
-  "notes": "V6.1.1 expands the casing catalog with the missing API 5CT 5 1/2 in. x 14.0 lb/ft J-55 and 7 in. x 17.0 lb/ft H-40 selections, and displays decimal casing weights without rounding them to misleading whole numbers."
+  "published_at": "2026-07-28",
+  "notes": "V6.1.3 adds the new Modern WBD option and connects Casing Design to the Permit Package Generator. Matching casing depths, sizes, weights, grades, connections, and overpull values now flow into permit documents, and the Casing Design PDF is copied into the permit output folder automatically."
 }
