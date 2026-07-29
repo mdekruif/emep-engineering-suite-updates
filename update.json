@@ -1,10 +1,10 @@
 {
-  "version": "6.1.12",
+  "version": "6.1.13",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.12/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "b82fe3de1337f3323319834ea3fdf19d4d94522c63a50f60ec0995773961c7ba",
-  "size_bytes": 164942339,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.13/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "2da01b0feb0e2f8a79dcde99f69abaec89ca61b77b5b46256da4ba3d6bbe48ad",
+  "size_bytes": 164942227,
   "required": false,
   "published_at": "2026-07-29",
-  "notes": "V6.1.12 adds Completion Procedure to the Engineering Suite opening page. The integrated workflow extracts and validates final well data and outputs only the completed Word and PDF procedure."
+  "notes": "V6.1.13 fixes Permit Package Generator cancellation so closing the startup window exits the workflow without opening another file picker."
 }
