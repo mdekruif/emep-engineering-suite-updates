@@ -1,10 +1,10 @@
 {
-  "version": "6.1.16",
+  "version": "6.1.17",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.16/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "ccbd250e12afeb330671a867be3339b0374e8ef0ab27c96279dba8ef342bba5d",
-  "size_bytes": 165013561,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.17/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "3d16fb6c7ed543bf78770f1200b832597b8e1d30f0187900f57754332e952953",
+  "size_bytes": 165013854,
   "required": false,
   "published_at": "2026-07-29",
-  "notes": "V6.1.16 lets Post Frac find completed wells by well name or API/UWI and load actual WellView casing, cement status, perforations, tubing/ESP, legal location, elevations, KOP, TD MD, and calculated TD TVD through read-only Peloton Data API calls. The final Peloton report PDF remains available as a manual fallback."
+  "notes": "V6.1.17 redesigns the main launcher into a compact two-column tool grid, shortens the tool descriptions, and keeps Post Frac as a full-width final option. All tool behavior remains unchanged."
 }
