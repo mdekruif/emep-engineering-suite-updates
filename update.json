@@ -1,10 +1,10 @@
 {
-  "version": "6.1.13",
+  "version": "6.1.14",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.13/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "2da01b0feb0e2f8a79dcde99f69abaec89ca61b77b5b46256da4ba3d6bbe48ad",
-  "size_bytes": 164942227,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.14/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "9587ef4d2a747bb397bb757dc44a5ad4f28d568eff686a1c9e8bd8f6a759e738",
+  "size_bytes": 164963167,
   "required": false,
   "published_at": "2026-07-29",
-  "notes": "V6.1.13 fixes Permit Package Generator cancellation so closing the startup window exits the workflow without opening another file picker."
+  "notes": "V6.1.14 adds the Post Frac tool. It reads the final Peloton report, lets the user review or correct the extracted actual well data, and creates a one-page post-frac wellbore diagram with casing, tubing, ESP, perforations, KOP, and total-depth details."
 }
