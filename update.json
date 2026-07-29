@@ -1,10 +1,10 @@
 {
-  "version": "6.1.11",
+  "version": "6.1.12",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.11/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "26f07085b1144453476e5804a6fcc49bec8de21dfca0207c8df88fe9c4a4cb23",
-  "size_bytes": 105585367,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.12/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "b82fe3de1337f3323319834ea3fdf19d4d94522c63a50f60ec0995773961c7ba",
+  "size_bytes": 164942339,
   "required": false,
   "published_at": "2026-07-29",
-  "notes": "V6.1.11 reorders the Engineering Suite opening page so Casing Design + WBD + Directional Plan is first, Permit Package Generator is second, and Populate Frac Design remains third."
+  "notes": "V6.1.12 adds Completion Procedure to the Engineering Suite opening page. The integrated workflow extracts and validates final well data and outputs only the completed Word and PDF procedure."
 }
