@@ -1,10 +1,10 @@
 {
-  "version": "6.1.15",
+  "version": "6.1.16",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.15/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "4d10c61a8bf8a9a4366d017ea9c0eda7e45c877c9d89e32e387441ac89d5d0a5",
-  "size_bytes": 164997464,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.16/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "ccbd250e12afeb330671a867be3339b0374e8ef0ab27c96279dba8ef342bba5d",
+  "size_bytes": 165013561,
   "required": false,
   "published_at": "2026-07-29",
-  "notes": "V6.1.15 adds secure Peloton Data API settings and a read-only connection test to Post Frac. Credentials are protected by Windows Credential Manager, and the test discovers the Peloton region, organization, WellView access, application header, and version needed for direct daily-report data retrieval."
+  "notes": "V6.1.16 lets Post Frac find completed wells by well name or API/UWI and load actual WellView casing, cement status, perforations, tubing/ESP, legal location, elevations, KOP, TD MD, and calculated TD TVD through read-only Peloton Data API calls. The final Peloton report PDF remains available as a manual fallback."
 }
