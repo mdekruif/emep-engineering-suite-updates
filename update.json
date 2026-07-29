@@ -1,10 +1,10 @@
 {
-  "version": "6.1.14",
+  "version": "6.1.15",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.14/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "9587ef4d2a747bb397bb757dc44a5ad4f28d568eff686a1c9e8bd8f6a759e738",
-  "size_bytes": 164963167,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.15/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "4d10c61a8bf8a9a4366d017ea9c0eda7e45c877c9d89e32e387441ac89d5d0a5",
+  "size_bytes": 164997464,
   "required": false,
   "published_at": "2026-07-29",
-  "notes": "V6.1.14 adds the Post Frac tool. It reads the final Peloton report, lets the user review or correct the extracted actual well data, and creates a one-page post-frac wellbore diagram with casing, tubing, ESP, perforations, KOP, and total-depth details."
+  "notes": "V6.1.15 adds secure Peloton Data API settings and a read-only connection test to Post Frac. Credentials are protected by Windows Credential Manager, and the test discovers the Peloton region, organization, WellView access, application header, and version needed for direct daily-report data retrieval."
 }
