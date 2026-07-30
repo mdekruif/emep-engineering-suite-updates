@@ -1,10 +1,10 @@
 {
-  "version": "8.1.25",
+  "version": "8.1.26",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.25/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "3d1d786e74174031f572864e859e18b50e9ec5f700a2bc614449f756e886e414",
-  "size_bytes": 170761385,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.26/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "b4aeef9bea6d25bc3dc15ba2a10f7e5fb4f65060b5ed20aec608598ad97bdd11",
+  "size_bytes": 170763277,
   "required": false,
   "published_at": "2026-07-30",
-  "notes": "V8.1.25 keeps the successfully authenticated Snowflake connection open for the entire Post Frac session, so MFA is completed once rather than once per well search. It also retains the password safely in process memory after saving while preserving Windows Credential Manager storage for future launches."
+  "notes": "V8.1.26 reads Top of Cement or TOC depths from WellView completion notes and linked completion comments, prioritizes those recorded values on the Post Frac WBD, removes all perforation labels and red perforation marks, and raises the bottom of the blue tubing line above the ESP symbol."
 }
