@@ -1,10 +1,10 @@
 {
-  "version": "8.1.23",
+  "version": "8.1.24",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.23/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "977bf1dbeb3fc48156870a3cd5d8c807c58622430c798a20f3c1cd755718e07a",
-  "size_bytes": 170761330,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.24/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "b0412abd7f39e1c1809e219ba4d51ddc82de3843513bcdcdd4cc47ef2c104860",
+  "size_bytes": 170762010,
   "required": false,
   "published_at": "2026-07-30",
-  "notes": "V8.1.23 adds Snowflake password-plus-MFA authentication for Peloton WellView. It supports Duo Push when the optional code is blank, accepts current authenticator codes without saving them, migrates existing Peloton password settings to MFA automatically, and prompts for MFA when Post Frac starts a new Snowflake session."
+  "notes": "V8.1.24 fixes the Snowflake settings tab order to User, Password, MFA Code, and Role. It also hands a successfully saved and tested configuration directly back to Post Frac so the status and Find and Load workflow are ready immediately instead of incorrectly reporting that Snowflake is not configured."
 }
