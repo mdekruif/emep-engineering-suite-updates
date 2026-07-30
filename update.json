@@ -1,10 +1,10 @@
 {
-  "version": "8.1.24",
+  "version": "8.1.25",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.24/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "b0412abd7f39e1c1809e219ba4d51ddc82de3843513bcdcdd4cc47ef2c104860",
-  "size_bytes": 170762010,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.25/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "3d1d786e74174031f572864e859e18b50e9ec5f700a2bc614449f756e886e414",
+  "size_bytes": 170761385,
   "required": false,
   "published_at": "2026-07-30",
-  "notes": "V8.1.24 fixes the Snowflake settings tab order to User, Password, MFA Code, and Role. It also hands a successfully saved and tested configuration directly back to Post Frac so the status and Find and Load workflow are ready immediately instead of incorrectly reporting that Snowflake is not configured."
+  "notes": "V8.1.25 keeps the successfully authenticated Snowflake connection open for the entire Post Frac session, so MFA is completed once rather than once per well search. It also retains the password safely in process memory after saving while preserving Windows Credential Manager storage for future launches."
 }
