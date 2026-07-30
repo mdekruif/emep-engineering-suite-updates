@@ -1,10 +1,10 @@
 {
-  "version": "8.1.26",
+  "version": "8.1.27",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.26/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "b4aeef9bea6d25bc3dc15ba2a10f7e5fb4f65060b5ed20aec608598ad97bdd11",
-  "size_bytes": 170763277,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.27/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "d1205034bc8a9a6c8aa91b7ebdf69a56dcfa02602326dcb51c0e8089d2c9b7b5",
+  "size_bytes": 170763374,
   "required": false,
   "published_at": "2026-07-30",
-  "notes": "V8.1.26 reads Top of Cement or TOC depths from WellView completion notes and linked completion comments, prioritizes those recorded values on the Post Frac WBD, removes all perforation labels and red perforation marks, and raises the bottom of the blue tubing line above the ESP symbol."
+  "notes": "V8.1.27 adds the WellView completion report free-form fields from WVJOBREPORT, including REMARKS and RPTTMACTOPS, to TOC extraction. It restricts those reports to completion jobs when job types are available and uses the newest recorded Top of Cement or TOC value on the Post Frac WBD."
 }
