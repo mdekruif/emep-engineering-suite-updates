@@ -1,10 +1,10 @@
 {
-  "version": "8.1.21",
+  "version": "8.1.22",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.21/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "61825e8c708925fc33e68d26e4f07e50fcb84e64fd8a3a415505187a82556499",
-  "size_bytes": 170758471,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.22/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "fc6622708ed9905bcce9552252e713dbb5e3317d8cbf1e857aa2b11154c83559",
+  "size_bytes": 170758999,
   "required": false,
   "published_at": "2026-07-30",
-  "notes": "V8.1.21 supports the personal Snowflake username and password assigned by Peloton, stores the password separately in Windows Credential Manager, defaults to the PUBLIC role, and retains browser SSO as an optional authentication method. Peloton API and final-report PDF retrieval remain available as fallbacks."
+  "notes": "V8.1.22 passes the entered Snowflake password directly to packaged background connection tasks, adds Show Password verification, and clearly distinguishes an account-side credential rejection from local credential-storage errors. Peloton API and final-report PDF retrieval remain available as fallbacks."
 }
