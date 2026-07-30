@@ -1,10 +1,10 @@
 {
-  "version": "6.1.18",
+  "version": "8.1.19",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v6.1.18/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "b2dba2805dba5fce82645f6c7f2c1fc97e446becb40c4306719cb442f9d4cf6d",
-  "size_bytes": 170756048,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.19/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "3684c84a4dea6c99fcfb9adf4f42677e5f15aec291e4b2a61823740615b4da18",
+  "size_bytes": 170757909,
   "required": false,
-  "published_at": "2026-07-29",
-  "notes": "V6.1.18 adds Snowflake WellView as the primary Post Frac source using browser SSO and read-only queries. It searches the EMEP_WV120.UNITSUS views for actual well, casing, cement, perforation, tubing, ESP, and directional data while preserving the Peloton Data API and final-report PDF as fallbacks."
+  "published_at": "2026-07-30",
+  "notes": "V8.1.19 adds Snowflake WellView as the primary Post Frac source using browser SSO, the required Azure West US 2 account locator, and read-only queries. It searches the EMEP_WV120.UNITSUS views for actual well, casing, cement, perforation, tubing, ESP, and directional data while preserving the Peloton Data API and final-report PDF as fallbacks."
 }
