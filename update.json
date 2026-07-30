@@ -1,10 +1,10 @@
 {
-  "version": "8.1.19",
+  "version": "8.1.20",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.19/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "3684c84a4dea6c99fcfb9adf4f42677e5f15aec291e4b2a61823740615b4da18",
-  "size_bytes": 170757909,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.20/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "7e55874aff992fc39922d0161a03883912c5cfbaef55514c85d42be45c146be5",
+  "size_bytes": 170757830,
   "required": false,
   "published_at": "2026-07-30",
-  "notes": "V8.1.19 adds Snowflake WellView as the primary Post Frac source using browser SSO, the required Azure West US 2 account locator, and read-only queries. It searches the EMEP_WV120.UNITSUS views for actual well, casing, cement, perforation, tubing, ESP, and directional data while preserving the Peloton Data API and final-report PDF as fallbacks."
+  "notes": "V8.1.20 separates the Snowflake PELOTON-EMEP account name from its Azure West US 2 locator hostname, migrates the earlier combined setting automatically, and provides clear guidance when Snowflake rejects driver-based SAML SSO. Peloton API and final-report PDF retrieval remain available as fallbacks."
 }
