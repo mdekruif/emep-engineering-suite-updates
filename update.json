@@ -1,10 +1,10 @@
 {
-  "version": "9.0.1",
+  "version": "9.0.2",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.1/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "e2c77a6baeba89c43696e743cabc264fb4f0030699836998ca124e6ba3780597",
-  "size_bytes": 170794598,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.2/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "616263f4acc8531db302b9e2a9689dcf250bb3031a2cbfb1011c0531a8709d21",
+  "size_bytes": 170798300,
   "required": false,
   "published_at": "2026-08-02",
-  "notes": "V9.0.1 adds WellView Job Time Log operation notes to Post Frac TOC extraction. It recognizes entries such as TOC at 4950', links time-log rows to completion jobs and reports, supports current and legacy WellView views, and excludes unrelated drilling-job TOC values. It also keeps tubing and ESP geometry aligned with the well trajectory on four-string designs and uses the final sustained survey build for KOP."
+  "notes": "V9.0.2 searches all actual WellView casing and casing-component records, including drilling-entered tally rows and liner hangers, to determine the production liner top. Stuart now loads its 4 1/2-inch production liner top at 8,341 ftKB instead of defaulting to surface."
 }
