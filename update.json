@@ -1,10 +1,10 @@
 {
-  "version": "9.0.2",
+  "version": "9.0.3",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.2/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "616263f4acc8531db302b9e2a9689dcf250bb3031a2cbfb1011c0531a8709d21",
-  "size_bytes": 170798300,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.3/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "24d753e89d37bebc388fc33dbc0bd32bdec901ef66d52b7e3fc17d040a34b576",
+  "size_bytes": 170798773,
   "required": false,
   "published_at": "2026-08-02",
-  "notes": "V9.0.2 searches all actual WellView casing and casing-component records, including drilling-entered tally rows and liner hangers, to determine the production liner top. Stuart now loads its 4 1/2-inch production liner top at 8,341 ftKB instead of defaulting to surface."
+  "notes": "V9.0.3 resolves duplicate WellView casing records across drilling and completion workflows. It favors the explicit Production Liner record with a nonzero persisted or calculated top, so Stuart loads its 4 1/2-inch liner top at 8,341 ftKB instead of selecting a surface-to-shoe completion copy."
 }
