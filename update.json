@@ -1,10 +1,10 @@
 {
-  "version": "8.1.27",
+  "version": "9.0.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v8.1.27/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "d1205034bc8a9a6c8aa91b7ebdf69a56dcfa02602326dcb51c0e8089d2c9b7b5",
-  "size_bytes": 170763374,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "15d36308a1cdc91d113a113bfa144da0418934fc7529114f8bace5b1db2ea9b9",
+  "size_bytes": 170791653,
   "required": false,
-  "published_at": "2026-07-30",
-  "notes": "V8.1.27 adds the WellView completion report free-form fields from WVJOBREPORT, including REMARKS and RPTTMACTOPS, to TOC extraction. It restricts those reports to completion jobs when job types are available and uses the newest recorded Top of Cement or TOC value on the Post Frac WBD."
+  "published_at": "2026-08-02",
+  "notes": "V9.0.0 adds WellView Job Time Log operation notes to Post Frac TOC extraction. It recognizes entries such as TOC at 4950', links time-log rows to completion jobs and reports, supports current and legacy WellView views, and excludes unrelated drilling-job TOC values."
 }
