@@ -1,10 +1,10 @@
 {
-  "version": "9.0.15",
+  "version": "9.0.16",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.15/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "3d4c870782a3eb1dcac97ca303e316f37ce6079113f9756a6e403b155059da03",
-  "size_bytes": 170912900,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.16/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "35ef58ce2907540fa05a4c9f5a68d1050732751b95e86394cfb1d00a70dfd6d8",
+  "size_bytes": 170914745,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.0.15 improves End of Well reporting: rig-walk gaps no longer inflate active drilling days; AFE, rig, legal location, and cumulative costs are discovered from broader WellView fields and views; operation time is grouped into RU/RD, drilling, tripping, cementing, and NPT; and NPT classification distinguishes equipment-change and fishing trips from casing trips."
+  "notes": "V9.0.16 makes End of Well reporting use the WellView cumulative field estimate as its authoritative cost, discovers AFE numbers from broader daily-report fields, combines rig contractor and rig number, infers TD date from the first report at final depth, and carries NPT through all recovery operations until clean drilling resumes. Detailed time-log rows are used without double-counting daily summaries."
 }
