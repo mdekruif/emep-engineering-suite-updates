@@ -1,10 +1,10 @@
 {
-  "version": "9.0.13",
+  "version": "9.0.15",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.13/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "bf2105cd116b86f9d37bd1651cc6d6cd1b962c9f0695af7896fd69a914f072c5",
-  "size_bytes": 170901784,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.15/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "3d4c870782a3eb1dcac97ca303e316f37ce6079113f9756a6e403b155059da03",
+  "size_bytes": 170912900,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.0.13 enables all supported Snowflake client-side MFA caching flags and handles accounts that require TOTP for every new connection. Each child tool first attempts the cached token; if Snowflake rejects it, the tool asks only for the current six-digit MFA code and retries with the securely shared account and password."
+  "notes": "V9.0.15 improves End of Well reporting: rig-walk gaps no longer inflate active drilling days; AFE, rig, legal location, and cumulative costs are discovered from broader WellView fields and views; operation time is grouped into RU/RD, drilling, tripping, cementing, and NPT; and NPT classification distinguishes equipment-change and fishing trips from casing trips."
 }
