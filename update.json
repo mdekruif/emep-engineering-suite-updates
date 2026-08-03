@@ -1,10 +1,10 @@
 {
-  "version": "9.1.12",
+  "version": "9.1.14",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.12/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "24f2e255348c4b3f30325a3c41bf23ff68a75666d095660845c60d47acaa6ab5",
-  "size_bytes": 170930193,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.14/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "e920eb876686861ccb3e05dc7bdc97493c24e9e318d9c7e0d394615750032af4",
+  "size_bytes": 170931757,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.1.12 adds a landscape BHA, motor, and bit-run section to the End of Well Drilling Report. It joins WellView BHA headers to component records and reports run dates, depth intervals, assembly descriptions, motor make/model/type/size/bend, and bit make/model/type/size/serial number."
+  "notes": "V9.1.14 fixes Frac Design Summary well selection. Snowflake searches returning multiple matches now open a WellView chooser showing well name, API/UWI, field, and location; the selected well is loaded and validated instead of silently using the first result."
 }
