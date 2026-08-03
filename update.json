@@ -1,10 +1,10 @@
 {
-  "version": "9.0.7",
+  "version": "9.0.8",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.7/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "81f0b1ec7f7b3e5b11ae6d8fce8d8a660e979b84e5358132922ce754bba2566d",
-  "size_bytes": 170817702,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.8/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "e720855e8b3461f5a4468dcc454f2e7b90fefcfe913bbd6b51da4eeba6b4d445",
+  "size_bytes": 170839599,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.0.7 passes the launcher Snowflake configuration into Frac Design, Completion Procedure, and Post Frac child processes. Completion procedures now select RBP and cleanout workstring sizes from the production casing, trap 5,000 psi between two plugs, record backside frac pressure, and start each major procedure section on a new page."
+  "notes": "V9.0.8 adds a Snowflake-backed End of Well Drilling Report with days-versus-depth performance, milestone and failure/NPT timelines, executive drilling metrics, and planned-versus-actual cost analysis. It reuses the suite-level Snowflake login and labels sections when optional WellView records are unavailable."
 }
