@@ -1,10 +1,10 @@
 {
-  "version": "9.1.6",
+  "version": "9.1.8",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.6/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "2f95ca26ade9932d1b49c4e8070a141613c3ed75399de8ae5b15d0e6a12c39e7",
-  "size_bytes": 170919751,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.8/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "a1977d4667770200a8e16021551d462ba120a374de6ac0491d421b8f3c73691f",
+  "size_bytes": 170921990,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.1.6 adds a true calendar-date x-axis to the landscape drilling timeline with evenly spaced labels and vertical date guides. It expands to fourteen compact marker lanes, uses tighter collision detection for numbered markers, and moves the color legend outside the chart so dates, markers, and lines do not overlap."
+  "notes": "V9.1.8 removes overlapping timeline stems by fanning dense same-day and near-date event markers into distinct chronological x positions. Every stem maintains a minimum visual gap, stays within chart bounds, and remains aligned near its authoritative calendar date on the x-axis."
 }
