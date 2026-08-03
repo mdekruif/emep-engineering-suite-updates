@@ -1,10 +1,10 @@
 {
-  "version": "9.0.12",
+  "version": "9.0.13",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.12/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "e50e953265795ec63a076bcb49c1297f68687301292ab831536316289adc1e03",
-  "size_bytes": 170900880,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.13/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "bf2105cd116b86f9d37bd1651cc6d6cd1b962c9f0695af7896fd69a914f072c5",
+  "size_bytes": 170901784,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.0.12 securely shares the connected Snowflake password with Frac Design, Completion Procedure, Post Frac, and End of Well using Windows DPAPI encryption. Child tools can now reuse the front-page login even when Windows Credential Manager does not return the saved password; no plaintext password is placed in the environment or command line."
+  "notes": "V9.0.13 enables all supported Snowflake client-side MFA caching flags and handles accounts that require TOTP for every new connection. Each child tool first attempts the cached token; if Snowflake rejects it, the tool asks only for the current six-digit MFA code and retries with the securely shared account and password."
 }
