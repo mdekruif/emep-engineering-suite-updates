@@ -1,10 +1,10 @@
 {
-  "version": "9.0.5",
+  "version": "9.0.6",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.5/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "4b72ef5a3cc24c2d8ebdb034275d7809d4dca53625547bd3e09e02bd807bd7cb",
-  "size_bytes": 170808244,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.6/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "7c108b36a70674ad2ea04795e9b1561d2db9aa30c02a8b43d153c6df781bb09b",
+  "size_bytes": 170814204,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.0.5 replaces Completion Procedure source-PDF prompts with direct read-only Snowflake WellView retrieval. Users search by well name or API/UWI, select the completed well, and load actual well header, casing and liner, completion operations, and directional-survey data into the existing validation screen before creating the Word and PDF procedure."
+  "notes": "V9.0.6 connects Populate Frac Design directly to Snowflake WellView for API, AFE, and actual production casing/liner set depth. A new suite-level Connect Snowflake button establishes one authenticated login, and Snowflake MFA token caching lets Populate Frac Design, Completion Procedure, and Post Frac reuse that login across their separate processes while the token remains valid."
 }
