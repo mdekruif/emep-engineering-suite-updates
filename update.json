@@ -1,10 +1,10 @@
 {
-  "version": "9.1.14",
+  "version": "9.1.15",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.14/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "e920eb876686861ccb3e05dc7bdc97493c24e9e318d9c7e0d394615750032af4",
-  "size_bytes": 170931757,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.15/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "9347ac2abdbb8f09f8cc162dc2e7980418cf2b423f546ee061348e490f21933f",
+  "size_bytes": 170933497,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.1.14 fixes Frac Design Summary well selection. Snowflake searches returning multiple matches now open a WellView chooser showing well name, API/UWI, field, and location; the selected well is loaded and validated instead of silently using the first result."
+  "notes": "V9.1.15 adds End of Well AFE-versus-field-estimate reporting by cost code. It preserves detailed cost rows, avoids multiplying repeated per-code AFE budgets, accumulates daily field estimates or uses cumulative per-code estimates, and summarizes variance, percent spent, over-budget codes, unbudgeted codes, and the largest overrun."
 }
