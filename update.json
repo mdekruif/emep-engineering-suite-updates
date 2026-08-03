@@ -1,10 +1,10 @@
 {
-  "version": "9.1.9",
+  "version": "9.1.10",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.9/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "58301d8bac9cd42f9ddd0ab2e6835157ec72ca25b2cc8e4189aaba379a231d6d",
-  "size_bytes": 170923363,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.10/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "646c361bd70dd6e1ee3461a7dd209e9053bd25b9fa9441bdf3016d561ead083e",
+  "size_bytes": 170924350,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.1.9 broadens End of Well financial discovery beyond WVJOBREPORT. It dynamically recognizes AFE/supplement and cumulative-to-date cost columns and searches linked drilling-job, daily-report cost, cost-summary, AFE, and daily-cost views while retaining the latest Daily Drilling date as the authoritative as-of date."
+  "notes": "V9.1.10 simplifies the Post Frac main window to the well name/API, output folder, primary Snowflake action, and one alternate-source button. Peloton API settings/search and Manual PDF browse/import now open in a separate Alternate Data Sources window."
 }
