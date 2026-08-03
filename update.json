@@ -1,10 +1,10 @@
 {
-  "version": "9.1.8",
+  "version": "9.1.9",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.8/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "a1977d4667770200a8e16021551d462ba120a374de6ac0491d421b8f3c73691f",
-  "size_bytes": 170921990,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.9/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "58301d8bac9cd42f9ddd0ab2e6835157ec72ca25b2cc8e4189aaba379a231d6d",
+  "size_bytes": 170923363,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.1.8 removes overlapping timeline stems by fanning dense same-day and near-date event markers into distinct chronological x positions. Every stem maintains a minimum visual gap, stays within chart bounds, and remains aligned near its authoritative calendar date on the x-axis."
+  "notes": "V9.1.9 broadens End of Well financial discovery beyond WVJOBREPORT. It dynamically recognizes AFE/supplement and cumulative-to-date cost columns and searches linked drilling-job, daily-report cost, cost-summary, AFE, and daily-cost views while retaining the latest Daily Drilling date as the authoritative as-of date."
 }
