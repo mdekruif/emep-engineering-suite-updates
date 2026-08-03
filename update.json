@@ -1,10 +1,10 @@
 {
-  "version": "9.0.4",
+  "version": "9.0.5",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.4/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "902f2d3131a7101a43c6f9821162d7062f9da6d9dd4770a72f7b4cb3e9f41280",
-  "size_bytes": 170798847,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.5/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "4b72ef5a3cc24c2d8ebdb034275d7809d4dca53625547bd3e09e02bd807bd7cb",
+  "size_bytes": 170808244,
   "required": false,
-  "published_at": "2026-08-02",
-  "notes": "V9.0.4 adds data-driven production equipment to the Post Frac WBD. Rod-lift wells show a rod string and downhole rod-pump assembly, ESP wells show a segmented motor/pump symbol, and tubing-only wells show a clean tubing line. Lift type and equipment depth are read from WellView tubing, rod, and downhole-equipment records."
+  "published_at": "2026-08-03",
+  "notes": "V9.0.5 replaces Completion Procedure source-PDF prompts with direct read-only Snowflake WellView retrieval. Users search by well name or API/UWI, select the completed well, and load actual well header, casing and liner, completion operations, and directional-survey data into the existing validation screen before creating the Word and PDF procedure."
 }
