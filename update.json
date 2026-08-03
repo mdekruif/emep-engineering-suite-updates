@@ -1,10 +1,10 @@
 {
-  "version": "9.0.8",
+  "version": "9.0.9",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.8/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "e720855e8b3461f5a4468dcc454f2e7b90fefcfe913bbd6b51da4eeba6b4d445",
-  "size_bytes": 170839599,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.9/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "22a9668e3b4aac4c79b5c8549bbb674af4f75b48ee2a86e0e4c0b0498b95e0f1",
+  "size_bytes": 170839206,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.0.8 adds a Snowflake-backed End of Well Drilling Report with days-versus-depth performance, milestone and failure/NPT timelines, executive drilling metrics, and planned-versus-actual cost analysis. It reuses the suite-level Snowflake login and labels sections when optional WellView records are unavailable."
+  "notes": "V9.0.9 fixes suite-level Snowflake connection sharing by publishing the successful launcher's non-secret settings directly to every child tool process. This avoids a failing Windows Credential Manager settings reload while keeping the password out of the process environment."
 }
