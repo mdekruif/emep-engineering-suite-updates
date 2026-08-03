@@ -1,10 +1,10 @@
 {
-  "version": "9.0.10",
+  "version": "9.0.11",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.10/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "8c1135daaaa79ed54640ecfaf2a4b4773f0bd349c5214b3bd9fe78883ecc76d3",
-  "size_bytes": 170849053,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.11/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "451dfcc6c5ab40e76def80a12666539b7136b0551093d0cc4c21f5a15e5f2b85",
+  "size_bytes": 170851108,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.0.10 makes Snowflake the primary source for Populate Frac Design, including actual casing and directional survey records, without requiring source PDFs. Frac Design, Completion Procedure, Post Frac, and End of Well now provide explicit Import PDFs Instead fallback actions when Snowflake data is unavailable or incomplete."
+  "notes": "V9.0.11 fixes End of Well report errors caused by WellView operation notes containing markup characters or oversized daily narratives. It also fixes the background error callback so the actual Snowflake or report-generation error is always displayed instead of leaving only an Error status."
 }
