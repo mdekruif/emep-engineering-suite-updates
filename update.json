@@ -1,10 +1,10 @@
 {
-  "version": "9.1.2",
+  "version": "9.1.3",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.2/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "ae143e6144c7e47f61e20c07260f5ef06d40f9c6083479965a4310630ae1e21b",
-  "size_bytes": 170917979,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.3/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "a1d08b79835e85aabd3f07e4e361fa97808ba119235e405d33c56a6cb88c8e27",
+  "size_bytes": 170919233,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.1.2 expands the End of Well lateral timeline and scales horizontal spacing to actual calendar dates. Milestones, every NPT start, and fishing events are marked with distinct colors and staggered labels, making long and short intervals visually proportional."
+  "notes": "V9.1.3 places the End of Well lateral drilling timeline on its own landscape page, stretches it across the full page width, and uses additional collision-aware label lanes and larger text. The remaining report pages automatically return to portrait orientation."
 }
