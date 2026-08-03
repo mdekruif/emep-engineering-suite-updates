@@ -1,10 +1,10 @@
 {
-  "version": "9.0.16",
+  "version": "9.1.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.16/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "35ef58ce2907540fa05a4c9f5a68d1050732751b95e86394cfb1d00a70dfd6d8",
-  "size_bytes": 170914745,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "0450f091cd1128246974acf4f91578e4af08108db8c6c3e42c8ad23cff248c5f",
+  "size_bytes": 170914439,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.0.16 makes End of Well reporting use the WellView cumulative field estimate as its authoritative cost, discovers AFE numbers from broader daily-report fields, combines rig contractor and rig number, infers TD date from the first report at final depth, and carries NPT through all recovery operations until clean drilling resumes. Detailed time-log rows are used without double-counting daily summaries."
+  "notes": "V9.1.0 corrects End of Well NPT classification so washout calculations and routine cleanup descriptions are not treated as failures. Standalone repairs count only their recorded duration, while NPT carry-forward remains limited to genuine recovery campaigns such as replacement trips, stuck pipe, fishing, sidetracks, and loss of circulation."
 }
