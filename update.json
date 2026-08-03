@@ -1,10 +1,10 @@
 {
-  "version": "9.1.1",
+  "version": "9.1.2",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.1/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "b5618d250d0443f57e8cc234051efc1cb34b6be62da3eae45831347f0ae313e8",
-  "size_bytes": 170916137,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.2/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "ae143e6144c7e47f61e20c07260f5ef06d40f9c6083479965a4310630ae1e21b",
+  "size_bytes": 170917979,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.1.1 expands End of Well rig discovery to WellView rig and service-unit records, combining contractor and rig number even when stored separately. It also adds a horizontal lateral drilling milestone timeline showing the dates of spud, casing points, KOP, curve, total depth, and rig release when available."
+  "notes": "V9.1.2 expands the End of Well lateral timeline and scales horizontal spacing to actual calendar dates. Milestones, every NPT start, and fishing events are marked with distinct colors and staggered labels, making long and short intervals visually proportional."
 }
