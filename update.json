@@ -1,10 +1,10 @@
 {
-  "version": "9.1.4",
+  "version": "9.1.5",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.4/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "f91c09ee332dbda6712d5dec66f1c6e0d3b15ad5dadf914e606f940ffc49ae8f",
-  "size_bytes": 170920412,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.5/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "a221a0b3a3caeeccb082ef53c316078e9d19d2a6da823f51f8c478a8c1d0eba6",
+  "size_bytes": 170919313,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.1.4 replaces crowded timeline text with collision-proof numbered markers and adds a detailed landscape table below the timeline. Each numbered step includes its date, type, depth, hours, and full WellView write-up; long tables continue on landscape pages with repeated headers."
+  "notes": "V9.1.5 distinguishes rig-equipment NPT from downhole recovery and post-TD teardown. Drawworks and traction-motor repairs count only their recorded NPT durations and do not open a trip-recovery window; pulling MWD, draining the motor, breaking the bit, and racking tools after TD are classified as rig-down work and excluded from NPT timelines and failure tables."
 }
