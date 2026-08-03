@@ -1,10 +1,10 @@
 {
-  "version": "9.1.3",
+  "version": "9.1.4",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.3/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "a1d08b79835e85aabd3f07e4e361fa97808ba119235e405d33c56a6cb88c8e27",
-  "size_bytes": 170919233,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.4/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "f91c09ee332dbda6712d5dec66f1c6e0d3b15ad5dadf914e606f940ffc49ae8f",
+  "size_bytes": 170920412,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.1.3 places the End of Well lateral drilling timeline on its own landscape page, stretches it across the full page width, and uses additional collision-aware label lanes and larger text. The remaining report pages automatically return to portrait orientation."
+  "notes": "V9.1.4 replaces crowded timeline text with collision-proof numbered markers and adds a detailed landscape table below the timeline. Each numbered step includes its date, type, depth, hours, and full WellView write-up; long tables continue on landscape pages with repeated headers."
 }
