@@ -1,10 +1,10 @@
 {
-  "version": "9.1.15",
+  "version": "9.1.16",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.15/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "9347ac2abdbb8f09f8cc162dc2e7980418cf2b423f546ee061348e490f21933f",
-  "size_bytes": 170933497,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.16/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "5bbaa7bd52b3f84fba2a0fc78d5c926bee82920d457d5c89d0e60004744f5e79",
+  "size_bytes": 170938214,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.1.15 adds End of Well AFE-versus-field-estimate reporting by cost code. It preserves detailed cost rows, avoids multiplying repeated per-code AFE budgets, accumulates daily field estimates or uses cumulative per-code estimates, and summarizes variance, percent spent, over-budget codes, unbudgeted codes, and the largest overrun."
+  "notes": "V9.1.16 fixes Frac Design directional-survey retrieval from Snowflake WellView. It resolves the wellbore and survey-header hierarchy, selects the highest/latest sidetrack, excludes planned surveys, and loads the latest MWD Surveys, Actual stations for that sidetrack."
 }
