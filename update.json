@@ -1,10 +1,10 @@
 {
-  "version": "9.1.10",
+  "version": "9.1.11",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.10/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "646c361bd70dd6e1ee3461a7dd209e9053bd25b9fa9441bdf3016d561ead083e",
-  "size_bytes": 170924350,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.11/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "aca5a858f1faa78c1671f95708a42ed43ddc872ab3565eb5f8ec58e3743585d9",
+  "size_bytes": 170923204,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.1.10 simplifies the Post Frac main window to the well name/API, output folder, primary Snowflake action, and one alternate-source button. Peloton API settings/search and Manual PDF browse/import now open in a separate Alternate Data Sources window."
+  "notes": "V9.1.11 fixes End of Well cumulative cost selection when a Daily Drilling record contains both small cost-code cumulative values and the overall Cum To Date total. All candidate total fields are evaluated, the largest authoritative value from the newest applicable cost date is used, and older daily reports cannot override the latest report."
 }
