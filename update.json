@@ -1,10 +1,10 @@
 {
-  "version": "9.0.6",
+  "version": "9.0.7",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.6/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "7c108b36a70674ad2ea04795e9b1561d2db9aa30c02a8b43d153c6df781bb09b",
-  "size_bytes": 170814204,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.0.7/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "81f0b1ec7f7b3e5b11ae6d8fce8d8a660e979b84e5358132922ce754bba2566d",
+  "size_bytes": 170817702,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.0.6 connects Populate Frac Design directly to Snowflake WellView for API, AFE, and actual production casing/liner set depth. A new suite-level Connect Snowflake button establishes one authenticated login, and Snowflake MFA token caching lets Populate Frac Design, Completion Procedure, and Post Frac reuse that login across their separate processes while the token remains valid."
+  "notes": "V9.0.7 passes the launcher Snowflake configuration into Frac Design, Completion Procedure, and Post Frac child processes. Completion procedures now select RBP and cleanout workstring sizes from the production casing, trap 5,000 psi between two plugs, record backside frac pressure, and start each major procedure section on a new page."
 }
