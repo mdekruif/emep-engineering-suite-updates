@@ -1,10 +1,10 @@
 {
-  "version": "9.1.5",
+  "version": "9.1.6",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.5/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "a221a0b3a3caeeccb082ef53c316078e9d19d2a6da823f51f8c478a8c1d0eba6",
-  "size_bytes": 170919313,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.6/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "2f95ca26ade9932d1b49c4e8070a141613c3ed75399de8ae5b15d0e6a12c39e7",
+  "size_bytes": 170919751,
   "required": false,
   "published_at": "2026-08-03",
-  "notes": "V9.1.5 distinguishes rig-equipment NPT from downhole recovery and post-TD teardown. Drawworks and traction-motor repairs count only their recorded NPT durations and do not open a trip-recovery window; pulling MWD, draining the motor, breaking the bit, and racking tools after TD are classified as rig-down work and excluded from NPT timelines and failure tables."
+  "notes": "V9.1.6 adds a true calendar-date x-axis to the landscape drilling timeline with evenly spaced labels and vertical date guides. It expands to fourteen compact marker lanes, uses tighter collision detection for numbered markers, and moves the color legend outside the chart so dates, markers, and lines do not overlap."
 }
