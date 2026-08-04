@@ -2,8 +2,8 @@
   "version": "9.2.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
   "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.2.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "5cb8678650e2496da15b5d3c174c2b2d14c0c2cd00d4443236a028510a3c044e",
-  "size_bytes": 172301722,
+  "sha256": "13eadb62f659b68ab4375af8cb099596ddc11908236730921655703448e9a4e4",
+  "size_bytes": 172302859,
   "required": false,
   "published_at": "2026-08-04",
   "notes": "V9.2.0 expands EOW Take Points into the EOW Report. It populates the bundled four-page Wyoming completion-report package from Snowflake WellView, calculates surface/first-take/last-take/bottom-hole coordinates from the latest actual sidetrack survey, and retains a supporting coordinate CSV for review."
