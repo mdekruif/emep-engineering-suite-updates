@@ -1,10 +1,10 @@
 {
-  "version": "9.2.0",
+  "version": "9.2.1",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.2.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "13eadb62f659b68ab4375af8cb099596ddc11908236730921655703448e9a4e4",
-  "size_bytes": 172302859,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.2.1/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "9344c5045e2575cb99a02edc386b5a1ccc8ee9a990621c6d017ddada51a981b5",
+  "size_bytes": 171028055,
   "required": false,
   "published_at": "2026-08-04",
-  "notes": "V9.2.0 expands EOW Take Points into the EOW Report. It populates the bundled four-page Wyoming completion-report package from Snowflake WellView, calculates surface/first-take/last-take/bottom-hole coordinates from the latest actual sidetrack survey, and retains a supporting coordinate CSV for review."
+  "notes": "V9.2.1 merges Post Frac and the EOW state-report workflow. It creates the post-frac WBD, populates the WOGCC Excel completion workbook, embeds the WBD, exports take-point coordinates, and preserves WellView-calculated directional-survey values for completion-procedure review."
 }
