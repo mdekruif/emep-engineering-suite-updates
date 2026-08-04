@@ -1,10 +1,10 @@
 {
-  "version": "9.1.16",
+  "version": "9.2.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.1.16/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "5bbaa7bd52b3f84fba2a0fc78d5c926bee82920d457d5c89d0e60004744f5e79",
-  "size_bytes": 170938214,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.2.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "fdd685142cd899472f2a7eee960163b09930e9d09b138f1b4909cd44501bd34c",
+  "size_bytes": 172302990,
   "required": false,
-  "published_at": "2026-08-03",
-  "notes": "V9.1.16 fixes Frac Design directional-survey retrieval from Snowflake WellView. It resolves the wellbore and survey-header hierarchy, selects the highest/latest sidetrack, excludes planned surveys, and loads the latest MWD Surveys, Actual stations for that sidetrack."
+  "published_at": "2026-08-04",
+  "notes": "V9.2.0 expands EOW Take Points into the EOW Report. It populates the bundled four-page Wyoming completion-report package from Snowflake WellView, calculates surface/first-take/last-take/bottom-hole coordinates from the latest actual sidetrack survey, and retains a supporting coordinate CSV for review."
 }
