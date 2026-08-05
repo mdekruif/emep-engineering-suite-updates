@@ -1,10 +1,10 @@
 {
-  "version": "9.2.1",
+  "version": "9.2.2",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.2.1/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "9344c5045e2575cb99a02edc386b5a1ccc8ee9a990621c6d017ddada51a981b5",
-  "size_bytes": 171028055,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.2.2/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "352fdfdbe090927f65ea18347e18cdf50b8900c0bf0ba91b846b2ed73689f1b6",
+  "size_bytes": 171998308,
   "required": false,
-  "published_at": "2026-08-04",
-  "notes": "V9.2.1 merges Post Frac and the EOW state-report workflow. It creates the post-frac WBD, populates the WOGCC Excel completion workbook, embeds the WBD, exports take-point coordinates, and preserves WellView-calculated directional-survey values for completion-procedure review."
+  "published_at": "2026-08-05",
+  "notes": "V9.2.2 adds the filled BLM completion report, parses frac-company post-job summaries, corrects WOGCC casing/tubing/perforation/frac mappings and BHL legal calls, and calculates missing WellView TVD/DLS survey values for completion procedures."
 }
