@@ -1,10 +1,10 @@
 {
-  "version": "9.2.3",
+  "version": "9.2.4",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.2.3/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "eebac22a942d2b750f58316bf00178e1cdb51c196d95de39cfe1c5b434cc7cd3",
-  "size_bytes": 172001100,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.2.4/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "dd92be0a5859c6a3ca18cfa2e7fba9ada12b8437558a84ef1b1311235c4302c1",
+  "size_bytes": 171999152,
   "required": false,
   "published_at": "2026-08-05",
-  "notes": "V9.2.3 fixes final Completion Procedure template wording for CBL recipients and no-liner wireline runs, and calculates Frac Design flush and pumpdown volumes from actual perf depths and the full casing geometry."
+  "notes": "V9.2.4 fixes an error at location records"
 }
