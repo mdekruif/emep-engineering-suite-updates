@@ -1,10 +1,10 @@
 {
-  "version": "9.2.2",
+  "version": "9.2.3",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.2.2/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "352fdfdbe090927f65ea18347e18cdf50b8900c0bf0ba91b846b2ed73689f1b6",
-  "size_bytes": 171998308,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.2.3/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "eebac22a942d2b750f58316bf00178e1cdb51c196d95de39cfe1c5b434cc7cd3",
+  "size_bytes": 172001100,
   "required": false,
   "published_at": "2026-08-05",
-  "notes": "V9.2.2 adds the filled BLM completion report, parses frac-company post-job summaries, corrects WOGCC casing/tubing/perforation/frac mappings and BHL legal calls, and calculates missing WellView TVD/DLS survey values for completion procedures."
+  "notes": "V9.2.3 fixes final Completion Procedure template wording for CBL recipients and no-liner wireline runs, and calculates Frac Design flush and pumpdown volumes from actual perf depths and the full casing geometry."
 }
