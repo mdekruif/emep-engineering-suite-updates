@@ -1,10 +1,10 @@
 {
-  "version": "9.2.4",
+  "version": "9.2.9",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.2.4/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "dd92be0a5859c6a3ca18cfa2e7fba9ada12b8437558a84ef1b1311235c4302c1",
-  "size_bytes": 171999152,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.2.9/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "438dd3306105b9bd852aa9fb8cef1eed87537c108dffa2d6623adfa265b2f644",
+  "size_bytes": 172362279,
   "required": false,
-  "published_at": "2026-08-05",
-  "notes": "V9.2.4 fixes an error at location records"
+  "published_at": "2026-08-07",
+  "notes": "V9.2.9 preserves the original Casing Design PDF and writes reconciled permit casing values to a separate permit copy."
 }
