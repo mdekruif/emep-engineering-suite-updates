@@ -1,10 +1,10 @@
 {
-  "version": "9.2.9",
+  "version": "9.5.17",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.2.9/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "438dd3306105b9bd852aa9fb8cef1eed87537c108dffa2d6623adfa265b2f644",
-  "size_bytes": 172362279,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v9.5.17/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "ff7a66621a25aa7237121758189c1075aaebbb2cc1d26290e564a6601571e319",
+  "size_bytes": 172284454,
   "required": false,
-  "published_at": "2026-08-07",
-  "notes": "V9.2.9 preserves the original Casing Design PDF and writes reconciled permit casing values to a separate permit copy."
+  "published_at": "2026-08-11",
+  "notes": "V9.5.17 fills the WOGCC and BLM porous-zone and formation-marker tables from WellView's actual drilled formation-top fields and places each BLM dataset in the correct item 30 or 31 table."
 }
