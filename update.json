@@ -1,10 +1,10 @@
 {
-  "version": "11.0.0",
+  "version": "12.0.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v11.0.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "ce334d3b24510dfcdbdf5920413e7a3e570f04d477b663e2401cebc0250d454b",
-  "size_bytes": 176781347,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v12.0.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "54cda429ada523b46338ae81841cccf6375833c8f14b8ae707756dc6d7df6bfd",
+  "size_bytes": 177467957,
   "required": false,
-  "published_at": "2026-08-12",
-  "notes": "V11.0.0 updates the Flowing Well Drawdown workbook template to Flowing_Well_Drawdown_Comparison_4.xlsx."
+  "published_at": "2026-08-13",
+  "notes": "V12.0.0 adds Ops Drive PDF discovery, workflow auto-fill, PDF preview, and Ask Data Question support for Ops Drive PDF searches."
 }
