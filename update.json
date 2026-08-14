@@ -1,10 +1,10 @@
 {
-  "version": "23.0.0",
+  "version": "23.1.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.0.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "fdb03fcee5940f9796a901d705b98ff6945aaedc3bf879603ba822ee7c742c34",
-  "size_bytes": 177688180,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.1.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "338aacc22b69d89de716ac3cdb677ddda4a4180bc5eb5c34eb72df3afcc3dc6f",
+  "size_bytes": 177714006,
   "required": false,
   "published_at": "2026-08-14",
-  "notes": "V23.0.0 adds built-in Ask Data Questions RAG indexing for the connected Ops Drive, incremental background refreshes, improved retrieval status handling, and seamless API normalization across 10, 12, and 14 digit forms."
+  "notes": "V23.1.0 adds a separate background Ask Data Questions RAG helper that is registered during install and update, while preserving the in-app RAG fallback and seamless API normalization across 10, 12, and 14 digit forms."
 }
