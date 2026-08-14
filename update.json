@@ -1,10 +1,10 @@
 {
-  "version": "12.0.0",
+  "version": "23.0.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v12.0.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "54cda429ada523b46338ae81841cccf6375833c8f14b8ae707756dc6d7df6bfd",
-  "size_bytes": 177467957,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.0.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "fdb03fcee5940f9796a901d705b98ff6945aaedc3bf879603ba822ee7c742c34",
+  "size_bytes": 177688180,
   "required": false,
-  "published_at": "2026-08-13",
-  "notes": "V12.0.0 adds Ops Drive PDF discovery, workflow auto-fill, PDF preview, and Ask Data Question support for Ops Drive PDF searches."
+  "published_at": "2026-08-14",
+  "notes": "V23.0.0 adds built-in Ask Data Questions RAG indexing for the connected Ops Drive, incremental background refreshes, improved retrieval status handling, and seamless API normalization across 10, 12, and 14 digit forms."
 }
