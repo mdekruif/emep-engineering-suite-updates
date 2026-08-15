@@ -1,10 +1,10 @@
 {
-  "version": "23.2.1",
+  "version": "23.3.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.2.1/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "3fc3d79b9bb86532c708b690ba8baaafc5acc67cfb8443970f9f9b0f856f2a45",
-  "size_bytes": 177802870,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.3.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "22d78ddc3a58c6dc43409e7d123225840d677fae2b14c1e997284aa553d378a6",
+  "size_bytes": 177812676,
   "required": false,
   "published_at": "2026-08-15",
-  "notes": "V23.2.1 makes the RAG helper and RAG Status dialog use the same DFS/UNC Ops Drive fallback as PDF lookup, decodes Task Scheduler refusal results, and improves oilfield casing-size, unit-token, and misspelling parsing."
+  "notes": "V23.3.0 adds an optional Claude API interpretation fallback for Ask Data Questions, stored in Windows Credential Manager and used only when the local lexicon cannot understand the question."
 }
