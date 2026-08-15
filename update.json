@@ -1,10 +1,10 @@
 {
-  "version": "23.2.0",
+  "version": "23.2.1",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.2.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "8de4c636032d9cb47c7061be8630e1e94e8bcaedd567bcfd6d415cd5cb4c5bad",
-  "size_bytes": 177800386,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.2.1/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "3fc3d79b9bb86532c708b690ba8baaafc5acc67cfb8443970f9f9b0f856f2a45",
+  "size_bytes": 177802870,
   "required": false,
   "published_at": "2026-08-15",
-  "notes": "V23.2.0 adds a Help > RAG Status dialog, shows actual local RAG index counts and helper state, and makes Ops Drive lookup fall back through DFS/UNC paths when Windows hides the mapped O: drive from the app."
+  "notes": "V23.2.1 makes the RAG helper and RAG Status dialog use the same DFS/UNC Ops Drive fallback as PDF lookup, decodes Task Scheduler refusal results, and improves oilfield casing-size, unit-token, and misspelling parsing."
 }
