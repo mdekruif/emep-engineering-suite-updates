@@ -1,10 +1,10 @@
 {
-  "version": "23.3.0",
+  "version": "23.4.1",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.3.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "22d78ddc3a58c6dc43409e7d123225840d677fae2b14c1e997284aa553d378a6",
-  "size_bytes": 177812676,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.4.1/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "54c47f3ab68326afde652ff43b963dcd36315080700bf818cb0b67de244be787",
+  "size_bytes": 177822841,
   "required": false,
   "published_at": "2026-08-15",
-  "notes": "V23.3.0 adds an optional Claude API interpretation fallback for Ask Data Questions, stored in Windows Credential Manager and used only when the local lexicon cannot understand the question."
+  "notes": "V23.4.1 adds an optional AI API interpretation fallback for Ask Data Questions with Claude, ChatGPT/OpenAI, and Grok/xAI provider support, separate Windows Credential Manager storage, and live model dropdown refreshes."
 }
