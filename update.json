@@ -1,10 +1,10 @@
 {
-  "version": "23.4.1",
+  "version": "23.4.2",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.4.1/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "54c47f3ab68326afde652ff43b963dcd36315080700bf818cb0b67de244be787",
-  "size_bytes": 177822841,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.4.2/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "dbf20dc61a03cef21048218f92f8a6c035397a1209add421a0584ac723de007d",
+  "size_bytes": 177828794,
   "required": false,
   "published_at": "2026-08-15",
-  "notes": "V23.4.1 adds an optional AI API interpretation fallback for Ask Data Questions with Claude, ChatGPT/OpenAI, and Grok/xAI provider support, separate Windows Credential Manager storage, and live model dropdown refreshes."
+  "notes": "V23.4.2 keeps Ask Data Questions responsive while the AI interpretation fallback runs, verifies AI API credentials after saving, and improves Ops Drive source-aware fallback behavior."
 }
