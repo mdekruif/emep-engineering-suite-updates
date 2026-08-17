@@ -1,10 +1,10 @@
 {
-  "version": "23.4.4",
+  "version": "23.4.6",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.4.4/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "101c5a4914fb40ed791de660601c9a3910306dc7e0444c6440fa79938228788f",
-  "size_bytes": 309835511,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.4.6/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "d17e2421dcbae558a684f66539f9b9d862fd9e0a08c85bc6083a405f8e7ba058",
+  "size_bytes": 309842840,
   "required": false,
-  "published_at": "2026-08-16",
-  "notes": "V23.4.4 keeps saved AI API, ZD SCADA, and Snowflake connections after the program is closed and reopened, and fixes the packaged build so Windows Credential Manager entries can be read back. It also ships the Tesseract OCR engine so scanned reports are searchable, reads scanned PDFs when Ask Data Questions searches a selected Ops Drive folder, explains why a scanned document could not be read instead of calling it empty, and stops oilfield terms from ending up inside a guessed well name."
+  "published_at": "2026-08-17",
+  "notes": "V23.4.6 builds the Ops Drive search index on one computer and shares it with everyone else, so it is no longer rebuilt on every PC. Each computer copies the shared index down only when it changes and checks it before use. Documents that contain no readable text are no longer re-read on every scheduled run."
 }
