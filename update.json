@@ -1,10 +1,10 @@
 {
-  "version": "23.4.6",
+  "version": "24.0.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v23.4.6/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "d17e2421dcbae558a684f66539f9b9d862fd9e0a08c85bc6083a405f8e7ba058",
-  "size_bytes": 309842840,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v24.0.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "a6ce6a70e4a6449e196dad0d89cd51e9ac409d3ec14231bc24a234dc0ab3545b",
+  "size_bytes": 309872370,
   "required": false,
   "published_at": "2026-08-17",
-  "notes": "V23.4.6 builds the Ops Drive search index on one computer and shares it with everyone else, so it is no longer rebuilt on every PC. Each computer copies the shared index down only when it changes and checks it before use. Documents that contain no readable text are no longer re-read on every scheduled run."
+  "notes": "V24.0.0 introduces the dark Fluent launcher with a left navigation rail, updated tool cards, and consistent dark theming across the engineering tools."
 }
