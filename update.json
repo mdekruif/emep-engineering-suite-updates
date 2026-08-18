@@ -1,10 +1,10 @@
 {
-  "version": "25.1.1",
+  "version": "25.1.2",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.1.1/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "cfa2c4bf7cce22e05ba2b171f21366b6ae837521014bb0501d535a4e61ebd3d8",
-  "size_bytes": 310228768,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.1.2/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "212f50ef3ac1560302ba85d5e8a5eabfb6355f534e5ccc25a13b852dd106600c",
+  "size_bytes": 310228064,
   "required": false,
   "published_at": "2026-08-18",
-  "notes": "V25.1.1 refreshes the application icon to the dark EMEP mark and applies the dark theme/icon handling across launcher-adjacent dialogs including Permit Package, Casing, Ask Data Question, Peloton settings and Flowing Well Drawdown."
+  "notes": "V25.1.2 points installed Start Menu and desktop shortcuts directly at the bundled dark EMEP icon so Windows no longer falls back to the old executable or cached shortcut icon."
 }
