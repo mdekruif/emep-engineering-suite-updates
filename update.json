@@ -1,10 +1,10 @@
 {
-  "version": "24.0.1",
+  "version": "25.0.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v24.0.1/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "fc722e1d23863b0f2ec11869ab239b048c6abd937919501b27f37baa4f8cb605",
-  "size_bytes": 309874502,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.0.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "a2adaaeaa4cca549606000d7751a6a1202f16d96588967dbf4618506abd4f658",
+  "size_bytes": 310184061,
   "required": false,
-  "published_at": "2026-08-17",
-  "notes": "V24.0.1 introduces the dark Fluent launcher with a left navigation rail, updated tool cards, and consistent dark theming across the engineering tools."
+  "published_at": "2026-08-18",
+  "notes": "V25.0.0 merges the current main changes into the dark Fluent launcher branch while preserving the dark launcher, dark connection dialogs, and Ask Data Question styling fixes. It also carries forward the End of Well Report v2 rebuild and keeps the unpublished update manifest blank until a verified installer is prepared."
 }
