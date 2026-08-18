@@ -1,10 +1,10 @@
 {
-  "version": "25.0.0",
+  "version": "25.1.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.0.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "a2adaaeaa4cca549606000d7751a6a1202f16d96588967dbf4618506abd4f658",
-  "size_bytes": 310184061,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.1.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "401d7aef8cf1fe1195c34827bd509908e22fbb63edd83fb59388747e500a2b21",
+  "size_bytes": 310241850,
   "required": false,
   "published_at": "2026-08-18",
-  "notes": "V25.0.0 merges the current main changes into the dark Fluent launcher branch while preserving the dark launcher, dark connection dialogs, and Ask Data Question styling fixes. It also carries forward the End of Well Report v2 rebuild and keeps the unpublished update manifest blank until a verified installer is prepared."
+  "notes": "V25.1.0 adds a Tools section to the launcher: Casing Specs (the full API rating table, filterable and exportable), Connection Specs (a vendor connection register with the source kept against every claim) and Calculations (capacity, annular and backside volumes, pipe in pipe, fill depth, pump output and strokes)."
 }
