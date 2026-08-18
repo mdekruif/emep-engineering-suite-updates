@@ -1,10 +1,10 @@
 {
-  "version": "25.1.0",
+  "version": "25.1.1",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.1.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "401d7aef8cf1fe1195c34827bd509908e22fbb63edd83fb59388747e500a2b21",
-  "size_bytes": 310241850,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.1.1/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "cfa2c4bf7cce22e05ba2b171f21366b6ae837521014bb0501d535a4e61ebd3d8",
+  "size_bytes": 310228768,
   "required": false,
   "published_at": "2026-08-18",
-  "notes": "V25.1.0 adds a Tools section to the launcher: Casing Specs (the full API rating table, filterable and exportable), Connection Specs (a vendor connection register with the source kept against every claim) and Calculations (capacity, annular and backside volumes, pipe in pipe, fill depth, pump output and strokes)."
+  "notes": "V25.1.1 refreshes the application icon to the dark EMEP mark and applies the dark theme/icon handling across launcher-adjacent dialogs including Permit Package, Casing, Ask Data Question, Peloton settings and Flowing Well Drawdown."
 }
