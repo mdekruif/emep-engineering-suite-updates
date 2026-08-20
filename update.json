@@ -1,10 +1,10 @@
 {
-  "version": "25.2.3",
+  "version": "25.2.4",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.2.3/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "26aed082e862f89b5fdd61e50c2fe60688a7e13ab67d4d999eebb28beebcac96",
-  "size_bytes": 310245362,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.2.4/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "16e73bbd57b79f2cafee7e442d893392592d89d23d3425f8825ea33509061540",
+  "size_bytes": 310245412,
   "required": false,
   "published_at": "2026-08-20",
-  "notes": "V25.2.3 darkens the Windows title bar across the suite. The caption is drawn by Windows rather than by the app, so it has to be requested through the Desktop Window Manager; every tool window and dialog now does."
+  "notes": "V25.2.4 corrects the centralizer note filed in the casing design PDF and the permit package Well Summary. The sentence now reads as one sentence and states the production casing interval it applies to."
 }
