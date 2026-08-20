@@ -1,10 +1,10 @@
 {
-  "version": "25.3.0",
+  "version": "25.4.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.3.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "66b0c2372ba12b1c2c1fd8fa0da90f39499f0c4b6c27f5d7ad99ce15ff91c182",
-  "size_bytes": 310318108,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.4.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "23efa87771475387b59e19c8d42df645efe3f84793b5723382a8315a24588a55",
+  "size_bytes": 310354162,
   "required": false,
   "published_at": "2026-08-20",
-  "notes": "V25.3.0 adds bit hydraulics, hole cleaning, a kill sheet and string weight, overpull and free point to the Calculations window, all reading the string already built on the String tab. A new Regulatory Reference tool carries what WOGCC Chapter 3 and 43 CFR Part 3170 require, with the citation, the source and a confidence flag on every line."
+  "notes": "V25.4.0 adds the API coupling OD to the casing spec table, and a per-size table to the connection register: click a connection and it lists every size it is offered in with the box or coupling OD, drift and weight band, marking the sizes where the vendor publishes no OD rather than estimating one."
 }
