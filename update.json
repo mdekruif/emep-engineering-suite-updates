@@ -1,10 +1,10 @@
 {
-  "version": "25.2.0",
+  "version": "25.2.3",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.2.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "c3af5876e446aa125e73e1bb3b705d5492201e4e42eaacc3571e3f91ad3a28d5",
-  "size_bytes": 310238033,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.2.3/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "26aed082e862f89b5fdd61e50c2fe60688a7e13ab67d4d999eebb28beebcac96",
+  "size_bytes": 310245362,
   "required": false,
-  "published_at": "2026-08-19",
-  "notes": "V25.2.0 fixes the Permit Package Generator's Auto-Find Ops PDFs: when more than one Ops Drive well folder matched the search, the folder picker raised \"name 'ttk' is not defined\" instead of opening."
+  "published_at": "2026-08-20",
+  "notes": "V25.2.3 darkens the Windows title bar across the suite. The caption is drawn by Windows rather than by the app, so it has to be requested through the Desktop Window Manager; every tool window and dialog now does."
 }
