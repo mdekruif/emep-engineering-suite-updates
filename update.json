@@ -1,10 +1,10 @@
 {
-  "version": "25.4.1",
+  "version": "25.4.2",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.4.1/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "3cd1a53d19b823e20e9b3ff23f7b9289f5b9dd7c4b2cf306b586d4bb9335f23b",
-  "size_bytes": 310358411,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.4.2/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "d97d803e4894eaea408a9500390fd7b29b61d5b4fd46dc6b14d9b6e52ac80846",
+  "size_bytes": 310357322,
   "required": false,
   "published_at": "2026-08-20",
-  "notes": "V25.4.1 makes the Permit Package directional-plan final TD flow through Casing Design, WBD, Operations Summary, Well Summary, Drilling Fluids, and Cement Design outputs, and calculates displayed permit casing safety factors from TVD instead of MD."
+  "notes": "V25.4.2 restores reliable Permit Package KOP detection and keeps directional-plan final TD authoritative everywhere except casing set depths, which remain sourced from the reconciled cement and Casing Design values."
 }
