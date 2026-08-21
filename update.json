@@ -1,10 +1,10 @@
 {
-  "version": "25.4.2",
+  "version": "25.4.3",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.4.2/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "d97d803e4894eaea408a9500390fd7b29b61d5b4fd46dc6b14d9b6e52ac80846",
-  "size_bytes": 310357322,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.4.3/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "25c359498b25372942604346d7787cbd859ffbc5016c1ffcf7c16b87be12e46b",
+  "size_bytes": 310366015,
   "required": false,
-  "published_at": "2026-08-20",
-  "notes": "V25.4.2 restores reliable Permit Package KOP detection and keeps directional-plan final TD authoritative everywhere except casing set depths, which remain sourced from the reconciled cement and Casing Design values."
+  "published_at": "2026-08-21",
+  "notes": "V25.4.3 adds Ask Data Question AI preflight prompts for API setup and send confirmation, and expands dynamic handling for fleet workover cost and duration questions."
 }
