@@ -1,10 +1,10 @@
 {
-  "version": "25.4.3",
+  "version": "25.4.4",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.4.3/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "25c359498b25372942604346d7787cbd859ffbc5016c1ffcf7c16b87be12e46b",
-  "size_bytes": 310366015,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.4.4/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "fdf0a9322910b6add22d0835aef3eacdc50e20e9096b0aafcc9def4223336b3e",
+  "size_bytes": 310369290,
   "required": false,
-  "published_at": "2026-08-21",
-  "notes": "V25.4.3 adds Ask Data Question AI preflight prompts for API setup and send confirmation, and expands dynamic handling for fleet workover cost and duration questions."
+  "published_at": "2026-08-22",
+  "notes": "V25.4.4 adds a polished GIS Viewer entry point to the launcher Home page and improves Ask Data Question handling for month-name production windows such as 'in July'."
 }
