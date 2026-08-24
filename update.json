@@ -1,10 +1,10 @@
 {
-  "version": "25.4.4",
+  "version": "25.4.5",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.4.4/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "fdf0a9322910b6add22d0835aef3eacdc50e20e9096b0aafcc9def4223336b3e",
-  "size_bytes": 310369290,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.4.5/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "7a859834a3de05afb0659d190bbdd835b078b5182445a7a5e2585cdabdae0628",
+  "size_bytes": 310375279,
   "required": false,
-  "published_at": "2026-08-22",
-  "notes": "V25.4.4 adds a polished GIS Viewer entry point to the launcher Home page and improves Ask Data Question handling for month-name production windows such as 'in July'."
+  "published_at": "2026-08-24",
+  "notes": "V25.4.5 moves the GIS Viewer to the left navigation rail and adds a liquid pipeline hydraulics calculator with velocity, flow regime, friction and pressure-loss results, outlet pressure, and pump horsepower. It also includes improved Ask Data Question handling for month-name production windows such as 'in July'."
 }
