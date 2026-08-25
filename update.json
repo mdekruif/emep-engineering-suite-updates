@@ -1,10 +1,10 @@
 {
-  "version": "25.4.8",
+  "version": "26.0.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.4.8/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "6f1719aecfdaabce330a08c946dabb6d65661c3a9146960342cecd064fe59b0a",
-  "size_bytes": 310397281,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v26.0.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "fb27ecd394a0410a957f2c16f635238aa60c17bb59930b1c932bb4c197c0b10f",
+  "size_bytes": 310400478,
   "required": false,
   "published_at": "2026-08-25",
-  "notes": "V25.4.8 improves launcher readability by wrapping long tool labels and opening the launcher maximized so the full tool grid and connection actions are visible."
+  "notes": "V26.0.0 improves launcher readability by wrapping long tool labels and opening the launcher maximized so the full tool grid and connection actions are visible."
 }
