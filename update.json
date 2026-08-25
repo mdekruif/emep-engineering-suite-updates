@@ -1,10 +1,10 @@
 {
-  "version": "25.4.7",
+  "version": "25.4.8",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.4.7/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "dd2bb3164977aea88ba4f4c588d22c7c5626cc472b56ea20ddfa4b089871c608",
-  "size_bytes": 310395036,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v25.4.8/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "6f1719aecfdaabce330a08c946dabb6d65661c3a9146960342cecd064fe59b0a",
+  "size_bytes": 310397281,
   "required": false,
-  "published_at": "2026-08-24",
-  "notes": "V25.4.7 adds the Build AFE workflow for D&C AFEs, reading well header data and planned lateral length from O-drive plats and directional plans, then selecting the nearest approved formation and lateral-length cost reference."
+  "published_at": "2026-08-25",
+  "notes": "V25.4.8 improves launcher readability by wrapping long tool labels and opening the launcher maximized so the full tool grid and connection actions are visible."
 }
