@@ -1,10 +1,10 @@
 {
-  "version": "27.2.0",
+  "version": "28.0.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v27.2.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "70b81d35b4abc96074e0ef6004f7bd5ceb66999cea23488946ae19a900847a4f",
-  "size_bytes": 310436309,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v28.0.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "46333421b5f08628eb98fe4cc6fb1f424e5ab8f674ef95ecabeee8a2b2fab295",
+  "size_bytes": 333150558,
   "required": false,
   "published_at": "2026-08-26",
-  "notes": "V27.2.0 improves Ops Drive RAG ingestion with mixed-PDF OCR, deeper scanned-document coverage, and resumable extraction upgrades."
+  "notes": "V28.0.0 includes the latest engineering-suite updates, including improved Ops Drive RAG/OCR and the sharper launcher rail logo."
 }
