@@ -1,10 +1,10 @@
 {
-  "version": "26.0.1",
+  "version": "27.0.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v26.0.1/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "69ca70ef48936cc2941dbe12f2c6cb423788ea143012dbe5fc008e738ee7a6ca",
-  "size_bytes": 310415831,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v27.0.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "616f9e5cca6dd0450ae5d5df1ab91a9431fb870ba785b73f983af96028e2d091",
+  "size_bytes": 310421626,
   "required": false,
-  "published_at": "2026-08-25",
-  "notes": "V26.0.1 adds automatic NDC and CWO AFE numbering to Build AFE. Existing numbers discovered by the Ops Drive RAG and newly issued numbers are retained in the RAG database, while atomic reservations in the shared RAG folder prevent duplicate numbers across users."
+  "published_at": "2026-08-26",
+  "notes": "V27.0.0 includes the current engineering-suite updates, including the Casing Design handoff used by Permit Package."
 }
