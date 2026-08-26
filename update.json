@@ -1,10 +1,10 @@
 {
-  "version": "27.0.0",
+  "version": "27.2.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v27.0.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "616f9e5cca6dd0450ae5d5df1ab91a9431fb870ba785b73f983af96028e2d091",
-  "size_bytes": 310421626,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v27.2.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "70b81d35b4abc96074e0ef6004f7bd5ceb66999cea23488946ae19a900847a4f",
+  "size_bytes": 310436309,
   "required": false,
   "published_at": "2026-08-26",
-  "notes": "V27.0.0 includes the current engineering-suite updates, including the Casing Design handoff used by Permit Package."
+  "notes": "V27.2.0 improves Ops Drive RAG ingestion with mixed-PDF OCR, deeper scanned-document coverage, and resumable extraction upgrades."
 }
