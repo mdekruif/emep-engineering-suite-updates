@@ -1,10 +1,10 @@
 {
-  "version": "29.1.0",
+  "version": "29.2.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.1.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "14dd472671aaa2287abbc605319d4cfc7a69e56a68fdd74e086260d376aec502",
-  "size_bytes": 333169304,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.2.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "e841594cb7a5818438e14832378b444ddea33127e47af47b26176650a359945a",
+  "size_bytes": 333183043,
   "required": false,
   "published_at": "2026-08-27",
-  "notes": "V29.1.0 enables the ONNX MiniLM embedding path, improves surface-hole-size extraction for completion reports, and adds approved Ask Data learning and AI diagnostics."
+  "notes": "V29.2.0 adds automatic shared Ask Data learning packages, recent completion-report lookup, improved drilled-hole interpretation, and a simplified Ask Data workflow."
 }
