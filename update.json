@@ -1,10 +1,10 @@
 {
-  "version": "28.0.0",
+  "version": "29.0.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v28.0.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "46333421b5f08628eb98fe4cc6fb1f424e5ab8f674ef95ecabeee8a2b2fab295",
-  "size_bytes": 333150558,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.0.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "74f1957c13314edca53ce161865a1e59f459397930a6292add50fa35db102a05",
+  "size_bytes": 333149460,
   "required": false,
-  "published_at": "2026-08-26",
-  "notes": "V28.0.0 includes the latest engineering-suite updates, including improved Ops Drive RAG/OCR and the sharper launcher rail logo."
+  "published_at": "2026-08-27",
+  "notes": "V29.0.0 enables the ONNX MiniLM embedding path, improves surface-hole-size extraction for completion reports, and fixes related Ask Data routing."
 }
