@@ -1,10 +1,10 @@
 {
-  "version": "29.2.0",
+  "version": "29.3.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.2.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "e841594cb7a5818438e14832378b444ddea33127e47af47b26176650a359945a",
-  "size_bytes": 333183043,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.3.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "79d329b0869d1f1df8eac8eaa8c2c1f2c55e7e827188c29f09678c069ffc0269",
+  "size_bytes": 333186581,
   "required": false,
-  "published_at": "2026-08-27",
+  "published_at": "2026-08-28",
   "notes": "V29.2.0 adds automatic shared Ask Data learning packages, recent completion-report lookup, improved drilled-hole interpretation, and a simplified Ask Data workflow."
 }
