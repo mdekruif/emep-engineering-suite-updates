@@ -1,10 +1,10 @@
 {
-  "version": "29.4.0",
+  "version": "29.5.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.4.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "55d08fe6fcba737fa49ba59e50a257440d3c997ba4b079edeea5a3faa35051bc",
-  "size_bytes": 333188179,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.5.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "2d733e384d3f439e858cd0f3c382948dc48b0257d50887c9ba16d256b428ec4e",
+  "size_bytes": 360463808,
   "required": false,
   "published_at": "2026-08-28",
-  "notes": "V29.2.0 adds automatic shared Ask Data learning packages, recent completion-report lookup, improved drilled-hole interpretation, and a simplified Ask Data workflow."
+  "notes": "V29.5.0 adds an ordered Ops Drive document-analysis pipeline: native PDF text, local Tesseract OCR, Google Document AI OCR, Azure Document Intelligence, Gemini, and Claude, with secure settings and retry-safe indexing."
 }
