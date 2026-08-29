@@ -1,10 +1,10 @@
 {
-  "version": "29.5.0",
+  "version": "29.6.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.5.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "2d733e384d3f439e858cd0f3c382948dc48b0257d50887c9ba16d256b428ec4e",
-  "size_bytes": 360463808,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.6.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "a044d617b8df67aab43f2a790058a1bb52a05fa9a044b1d3806eb86e3ebc2e7e",
+  "size_bytes": 361412156,
   "required": false,
-  "published_at": "2026-08-28",
-  "notes": "V29.5.0 adds an ordered Ops Drive document-analysis pipeline: native PDF text, local Tesseract OCR, Google Document AI OCR, Azure Document Intelligence, Gemini, and Claude, with secure settings and retry-safe indexing."
+  "published_at": "2026-08-29",
+  "notes": "V29.6.0 adds the MSAs tool: a shared RAG index of the Vendors drive (X:\\MSAs\\Vendors) with layered signature-page analysis — digital certificates, DocuSign stamps, local ink detection and an optional cloud AI check — listing every vendor and whether their MSA is signed, with search and Excel export."
 }
