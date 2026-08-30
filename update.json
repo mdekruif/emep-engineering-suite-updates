@@ -1,10 +1,10 @@
 {
-  "version": "29.8.3",
+  "version": "29.8.4",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.8.3/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "eaead9de3bc94fe756c3aee1135c7c414959374aea9b2612d6802005e5f135fc",
-  "size_bytes": 11931336,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.8.4/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "8ff1f48e60eb9987537d63970bcee929d3d084a2053a0ae51728d461e59ddac6",
+  "size_bytes": 11932849,
   "required": false,
   "published_at": "2026-08-30",
-  "notes": "V29.8.3 fixes the Settings page viewport so every card remains accessible. The vertical scrollbar now reflects the full content height, and mouse-wheel, arrow-key, and page-key scrolling work across the cards."
+  "notes": "V29.8.4 fixes update installation when the hidden Ops Drive RAG helper is still running. The installer now unregisters the scheduled helper, stops only its active background process, waits for the file lock to clear, and then safely replaces the application files."
 }
