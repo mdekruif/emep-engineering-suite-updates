@@ -1,10 +1,10 @@
 {
   "version": "29.8.1",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.8.1/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "f4d3422a728c68a29faa8572a0d8a17db1e17049f904f674dd106d16ddb4c241",
-  "size_bytes": 923947545,
+  "download_url": "",
+  "sha256": "",
+  "size_bytes": 0,
   "required": false,
   "published_at": "2026-08-30",
-  "notes": "V29.8.1 raises the verified automatic-update package limit to 1,200 MB so future releases that include the bundled local VLM can be downloaded and installed by the Suite."
+  "notes": "V29.8.1 raises the verified automatic-update package limit to 1,200 MB. Because older versions enforce the previous 750 MB limit, this one update must be downloaded manually from the secure GitHub release page. After V29.8.1 is installed, future verified updates up to 1,200 MB can download automatically."
 }
