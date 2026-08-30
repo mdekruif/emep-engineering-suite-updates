@@ -1,10 +1,10 @@
 {
-  "version": "29.8.0",
+  "version": "29.8.1",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.8.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "4be24cadc8e1d21cfe30ed4b6d2a2a160fe7a133f16f29bc2d5cf24c265bcc61",
-  "size_bytes": 923947166,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.8.1/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "f4d3422a728c68a29faa8572a0d8a17db1e17049f904f674dd106d16ddb4c241",
+  "size_bytes": 923947545,
   "required": false,
   "published_at": "2026-08-30",
-  "notes": "V29.8.0 includes a fully local VLM for Ops Drive and vendor MSA RAG. Release builds bundle a checksum-verified llama.cpp CPU runtime and compact SmolVLM model; the app starts it invisibly on loopback before indexing, performs no installed-machine model download, and still permits an explicitly configured LAN or local model server override."
+  "notes": "V29.8.1 raises the verified automatic-update package limit to 1,200 MB so future releases that include the bundled local VLM can be downloaded and installed by the Suite."
 }
