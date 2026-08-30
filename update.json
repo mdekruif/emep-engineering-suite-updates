@@ -1,10 +1,10 @@
 {
-  "version": "29.6.0",
+  "version": "29.7.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.6.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "a044d617b8df67aab43f2a790058a1bb52a05fa9a044b1d3806eb86e3ebc2e7e",
-  "size_bytes": 361412156,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.7.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "4c212b0a3434895d1573d3428385489843d97ca74ed92dc314413b3ab826d663",
+  "size_bytes": 361443051,
   "required": false,
-  "published_at": "2026-08-29",
-  "notes": "V29.6.0 adds the MSAs tool: a shared RAG index of the Vendors drive (X:\\MSAs\\Vendors) with layered signature-page analysis — digital certificates, DocuSign stamps, local ink detection and an optional cloud AI check — listing every vendor and whether their MSA is signed, with search and Excel export."
+  "published_at": "2026-08-30",
+  "notes": "V29.7.0 reorders the document-analysis ladder for both the Ops Drive RAG and the vendor MSA analysis: after native text and local Tesseract OCR, an unreadable page now goes to a local vision model (any OpenAI-compatible server such as LM Studio, llamafile, or vLLM) before anything leaves the machine, then to the Gemini API for final analysis, with Google Document AI, Azure, and Claude kept as configured extras. Also fixes the Inno installer version left at 29.5.0."
 }
