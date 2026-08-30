@@ -1,10 +1,10 @@
 {
-  "version": "29.7.0",
+  "version": "29.7.1",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.7.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "4c212b0a3434895d1573d3428385489843d97ca74ed92dc314413b3ab826d663",
-  "size_bytes": 361443051,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.7.1/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "925cd8f69a5604692095e60b115205d8cac4426c7bbb5fa277952e6e83ce352c",
+  "size_bytes": 361442935,
   "required": false,
   "published_at": "2026-08-30",
-  "notes": "V29.7.0 reorders the document-analysis ladder for both the Ops Drive RAG and the vendor MSA analysis: after native text and local Tesseract OCR, an unreadable page now goes to a local vision model (any OpenAI-compatible server such as LM Studio, llamafile, or vLLM) before anything leaves the machine, then to the Gemini API for final analysis, with Google Document AI, Azure, and Claude kept as configured extras. Also fixes the Inno installer version left at 29.5.0."
+  "notes": "V29.7.1 enforces local-first document analysis for the Ops Drive RAG and vendor MSA analysis: native text and local Tesseract OCR run first, then the local vision model, then remote OCR, and only then cloud generative models. The first successful reader stops the ladder, and the pipeline revision triggers one controlled re-pass of documents checked under the previous ordering."
 }
