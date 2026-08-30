@@ -1,10 +1,10 @@
 {
-  "version": "29.7.2",
+  "version": "29.8.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.7.2/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "410aafa5b18d34e0b89d02e8e718b890503e3920b6d477f00fa3411237dc1a34",
-  "size_bytes": 361443852,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.8.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "4be24cadc8e1d21cfe30ed4b6d2a2a160fe7a133f16f29bc2d5cf24c265bcc61",
+  "size_bytes": 923947166,
   "required": false,
   "published_at": "2026-08-30",
-  "notes": "V29.7.2 keeps the local-first document-analysis pipeline and fixes the Settings page so all configuration cards remain accessible in a vertically scrollable view."
+  "notes": "V29.8.0 includes a fully local VLM for Ops Drive and vendor MSA RAG. Release builds bundle a checksum-verified llama.cpp CPU runtime and compact SmolVLM model; the app starts it invisibly on loopback before indexing, performs no installed-machine model download, and still permits an explicitly configured LAN or local model server override."
 }
