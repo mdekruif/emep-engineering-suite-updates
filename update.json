@@ -1,10 +1,10 @@
 {
-  "version": "29.7.1",
+  "version": "29.7.2",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.7.1/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "925cd8f69a5604692095e60b115205d8cac4426c7bbb5fa277952e6e83ce352c",
-  "size_bytes": 361442935,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.7.2/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "410aafa5b18d34e0b89d02e8e718b890503e3920b6d477f00fa3411237dc1a34",
+  "size_bytes": 361443852,
   "required": false,
   "published_at": "2026-08-30",
-  "notes": "V29.7.1 enforces local-first document analysis for the Ops Drive RAG and vendor MSA analysis: native text and local Tesseract OCR run first, then the local vision model, then remote OCR, and only then cloud generative models. The first successful reader stops the ladder, and the pipeline revision triggers one controlled re-pass of documents checked under the previous ordering."
+  "notes": "V29.7.2 keeps the local-first document-analysis pipeline and fixes the Settings page so all configuration cards remain accessible in a vertically scrollable view."
 }
