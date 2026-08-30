@@ -1,10 +1,10 @@
 {
-  "version": "29.8.5",
+  "version": "29.8.6",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.8.5/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "95ef30d570caf8ec65c03f0bb9da01b72cc4feb8eb70305772158890cc4c9a56",
-  "size_bytes": 11931947,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.8.6/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "1ef1099984fa0230fe5867a97a7a4445178d205737b336c506e14beb4bff0c4a",
+  "size_bytes": 11932755,
   "required": false,
   "published_at": "2026-08-30",
-  "notes": "V29.8.5 hardens Windows update installation against background-process and file-handle races. After the normal close-windows confirmation, the installer performs a final Suite-process sweep and retries the atomic directory swap while Windows releases terminated-process or security-scanner handles."
+  "notes": "V29.8.6 fixes the remaining Windows update lock caused by an orphaned bundled VLM server. Before replacing application files, the installer now stops the suite-managed llama server on its fixed loopback port, then stops the RAG helper and completes the existing process-sweep and directory-swap retry sequence."
 }
