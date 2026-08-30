@@ -1,10 +1,10 @@
 {
-  "version": "29.8.2",
+  "version": "29.8.3",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.8.2/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "3d574a9a2b37998896a9e69a79c5a7a975ac84c56514c9d407f34a942c00f77d",
-  "size_bytes": 11931758,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.8.3/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "eaead9de3bc94fe756c3aee1135c7c414959374aea9b2612d6802005e5f135fc",
+  "size_bytes": 11931336,
   "required": false,
   "published_at": "2026-08-30",
-  "notes": "V29.8.2 adds a small, checksum-verified bridge updater so installations with the previous 750 MB limit can automatically obtain the complete VLM-enabled release without opening a browser. The installed Suite retains the new 1,200 MB limit for future releases."
+  "notes": "V29.8.3 fixes the Settings page viewport so every card remains accessible. The vertical scrollbar now reflects the full content height, and mouse-wheel, arrow-key, and page-key scrolling work across the cards."
 }
