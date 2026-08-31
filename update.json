@@ -1,10 +1,10 @@
 {
-  "version": "29.9.3",
+  "version": "29.9.4",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.3/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "6235b60baa2e365a3cff15a64ef0bb134670d0cec12a154f154d1ec2bdb35503",
-  "size_bytes": 11930305,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.4/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "031a9b00db2d1a43fc86d09c42ea53471bd22238cdaf17adb0a76c375a3e2fa2",
+  "size_bytes": 11931702,
   "required": false,
   "published_at": "2026-08-31",
-  "notes": "V29.9.3 fixes multi-API production questions so every listed API is resolved and included in the combined result."
+  "notes": "V29.9.4 adds a dedicated multiline AFE-number lookup: it resolves each requested well separately and returns AFE identifiers from WellView headers or job records."
 }
