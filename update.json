@@ -1,10 +1,10 @@
 {
-  "version": "29.9.0",
+  "version": "29.9.1",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.0/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "1850d0d0f8069d032ba0da06277c94bb5169e047f54cd5cc43ed434f1c430238",
-  "size_bytes": 11932815,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.1/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "c64e70353a0a98bc72489a4eca407d8458611302b738056bfb22365351aab708",
+  "size_bytes": 11932353,
   "required": false,
   "published_at": "2026-08-31",
-  "notes": "V29.9.0 fixes a launcher error that could prevent Help > RAG Status from opening. It also audits the launcher theme constants used across the Suite screens."
+  "notes": "V29.9.1 updates the Gemini document-reader choices to Gemini 3.6 Flash, adds a Test Claude control, and lets both cloud tests use the API key and model currently entered in the settings window."
 }
