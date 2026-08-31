@@ -1,10 +1,10 @@
 {
-  "version": "29.9.5",
+  "version": "29.9.6",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.5/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "5254895c5aa32f949482c4c2c30e698f0bd12b49c10ed23eec359270acb16263",
-  "size_bytes": 11931687,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.6/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "7f3972c7b70b28d56eeaee14ba95edddb1ad6c3fcaf5e05e9cdafa7fcc73a7d1",
+  "size_bytes": 11932142,
   "required": false,
   "published_at": "2026-08-31",
-  "notes": "V29.9.5 improves shorthand WellView name matching, including names with an embedded legal-location block such as Yogo 1PH."
+  "notes": "V29.9.6 restores RAG extraction for legacy Excel .xls and Word .doc files on the Ops Drive. Previously unreadable legacy Office documents are automatically revisited."
 }
