@@ -1,10 +1,10 @@
 {
-  "version": "29.9.4",
+  "version": "29.9.5",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.4/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "031a9b00db2d1a43fc86d09c42ea53471bd22238cdaf17adb0a76c375a3e2fa2",
-  "size_bytes": 11931702,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.5/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "5254895c5aa32f949482c4c2c30e698f0bd12b49c10ed23eec359270acb16263",
+  "size_bytes": 11931687,
   "required": false,
   "published_at": "2026-08-31",
-  "notes": "V29.9.4 adds a dedicated multiline AFE-number lookup: it resolves each requested well separately and returns AFE identifiers from WellView headers or job records."
+  "notes": "V29.9.5 improves shorthand WellView name matching, including names with an embedded legal-location block such as Yogo 1PH."
 }
