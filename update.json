@@ -1,10 +1,10 @@
 {
-  "version": "29.9.9",
+  "version": "29.9.10",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.9/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "26585cd9e4ee77045f85e8e1ad736319eb7e1651c83066757380d3d847b303cd",
-  "size_bytes": 11932211,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.10/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "b2f6857a07ec90f96a187ac309f091f483f7fb2dd1bf632c2d913a238c89cfa9",
+  "size_bytes": 11930166,
   "required": false,
   "published_at": "2026-09-01",
-  "notes": "V29.9.9 simplifies the Post Frac / EOW workflow with Find Well and Other actions, supports individual WBD and regulatory report output, improves O-drive final-survey and frac-report discovery, and handles sidetrack-specific survey and perforation records."
+  "notes": "V29.9.10 adds a built-in local AI model manager with searchable Hugging Face GGUF discovery, resumable verified downloads, installed-model management, and separate model selection for RAG answers and document vision."
 }
