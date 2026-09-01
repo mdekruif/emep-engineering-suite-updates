@@ -1,10 +1,10 @@
 {
-  "version": "29.9.10",
+  "version": "29.9.11",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.10/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "b2f6857a07ec90f96a187ac309f091f483f7fb2dd1bf632c2d913a238c89cfa9",
-  "size_bytes": 11930166,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.11/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "a6e0d9c7670b01aa90adca0ae07548c9c03f61b1459ad846dcd48d03bdf1fb01",
+  "size_bytes": 11932290,
   "required": false,
   "published_at": "2026-09-01",
-  "notes": "V29.9.10 adds a built-in local AI model manager with searchable Hugging Face GGUF discovery, resumable verified downloads, installed-model management, and separate model selection for RAG answers and document vision."
+  "notes": "V29.9.11 makes Ask Data Question smarter about Ops Drive requests, recognizes named well families as fleet queries, calculates source-verified casing footage across matching wells, and reports per-well evidence and exceptions."
 }
