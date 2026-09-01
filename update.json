@@ -1,10 +1,10 @@
 {
-  "version": "29.9.8",
+  "version": "29.9.9",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.8/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "7ec333e8d64ff54f565343552f8383ebf38a5f7b84f213b2f398eaaa25cba113",
-  "size_bytes": 11932829,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.9/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "26585cd9e4ee77045f85e8e1ad736319eb7e1651c83066757380d3d847b303cd",
+  "size_bytes": 11932211,
   "required": false,
   "published_at": "2026-09-01",
-  "notes": "V29.9.8 lets Post Frac / EOW users choose the completed well from a list when an O-drive document search matches multiple well folders, then fills the final-survey and frac-company PJR paths from that selection."
+  "notes": "V29.9.9 simplifies the Post Frac / EOW workflow with Find Well and Other actions, supports individual WBD and regulatory report output, improves O-drive final-survey and frac-report discovery, and handles sidetrack-specific survey and perforation records."
 }
