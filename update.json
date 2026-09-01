@@ -1,10 +1,10 @@
 {
-  "version": "29.9.11",
+  "version": "29.9.12",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.11/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "a6e0d9c7670b01aa90adca0ae07548c9c03f61b1459ad846dcd48d03bdf1fb01",
-  "size_bytes": 11932290,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.12/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "f03b88e864296dc93be483ec70125eaa5c39daea5c96a01317c2ee67b200c580",
+  "size_bytes": 11932781,
   "required": false,
   "published_at": "2026-09-01",
-  "notes": "V29.9.11 makes Ask Data Question smarter about Ops Drive requests, recognizes named well families as fleet queries, calculates source-verified casing footage across matching wells, and reports per-well evidence and exceptions."
+  "notes": "V29.9.12 improves Local AI model downloads on corporate networks by detecting blocked Hugging Face CDN DNS, using a secure DNS-over-HTTPS and Windows curl fallback, preserving resumable transfers, and retaining disk-space and SHA-256 verification."
 }
