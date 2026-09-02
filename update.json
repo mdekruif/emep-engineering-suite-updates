@@ -1,10 +1,10 @@
 {
-  "version": "29.9.12",
+  "version": "29.9.13",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.12/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "f03b88e864296dc93be483ec70125eaa5c39daea5c96a01317c2ee67b200c580",
-  "size_bytes": 11932781,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.13/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "be0d35a7c11c893a85231c74f19b6aba19d7a40a481cf28f6b13029e69b5f1a7",
+  "size_bytes": 11932583,
   "required": false,
-  "published_at": "2026-09-01",
-  "notes": "V29.9.12 improves Local AI model downloads on corporate networks by detecting blocked Hugging Face CDN DNS, using a secure DNS-over-HTTPS and Windows curl fallback, preserving resumable transfers, and retaining disk-space and SHA-256 verification."
+  "published_at": "2026-09-02",
+  "notes": "V29.9.13 makes the selected local AI model automatically route Ask Anything questions to WellView, Ops Drive, or both, and adds safe Excel/CSV attachments that gather source-backed answers by well or API into a new audited workbook without overwriting the original."
 }
