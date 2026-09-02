@@ -1,10 +1,10 @@
 {
-  "version": "29.9.15",
+  "version": "29.9.18",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.15/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "579647e9e92c7cd029a90e33c162b6fdbc1ecca1701a738aeb4f5fbd92c0cdcd",
-  "size_bytes": 11932624,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.18/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "76d1b2de873f8a8a37a39a63e922229d31c2834bcfe5412df2670c47a3b59bb4",
+  "size_bytes": 11931501,
   "required": false,
   "published_at": "2026-09-02",
-  "notes": "V29.9.15 runs local Vision after OCR while building the RAG index for sparse scans, diagrams, and engineering tables; strengthens Ask Data Questions and persistent-index coverage; keeps Vision and answer-model selection separate; and avoids rerunning page Vision for simple RAG lookups."
+  "notes": "V29.9.18 runs up to two local Vision page analyses concurrently during RAG indexing, keeps the Qwen vision projector loaded for shared answer/Vision use, and reports local-Vision work correctly."
 }
