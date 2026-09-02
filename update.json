@@ -1,10 +1,10 @@
 {
-  "version": "29.9.14",
+  "version": "29.9.15",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.14/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "59835a74478bed6cf0180f942cbb9e59735ba2cc607f8e22b032a8edd0999fbe",
-  "size_bytes": 11932996,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.15/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "579647e9e92c7cd029a90e33c162b6fdbc1ecca1701a738aeb4f5fbd92c0cdcd",
+  "size_bytes": 11932624,
   "required": false,
   "published_at": "2026-09-02",
-  "notes": "V29.9.14 broadens local Vision enrichment for sparse OCR, scans, diagrams, and engineering tables; strengthens Ask Data Questions page verification and persistent-index coverage; and keeps Vision and answer-model selection separate."
+  "notes": "V29.9.15 runs local Vision after OCR while building the RAG index for sparse scans, diagrams, and engineering tables; strengthens Ask Data Questions and persistent-index coverage; keeps Vision and answer-model selection separate; and avoids rerunning page Vision for simple RAG lookups."
 }
