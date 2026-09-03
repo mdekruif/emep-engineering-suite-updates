@@ -1,10 +1,10 @@
 {
-  "version": "29.9.24",
+  "version": "29.9.26",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.24/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "084c12fabe8fd2f7a234833bd37ec4777999d93b82874ce0626f1c60f0a85c8d",
-  "size_bytes": 11932751,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.26/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "11323776799e95722f9d94a5b741228cc256e7b37a7cb1afea7e8e92b8676ef4",
+  "size_bytes": 11931679,
   "required": false,
   "published_at": "2026-09-03",
-  "notes": "Fixes the Windows release build and ships compact Vulkan GPU acceleration for the local AI model."
+  "notes": "Adds an optional verified NVIDIA CUDA 12.4 runtime for local AI, with automatic Vulkan fallback."
 }
