@@ -1,10 +1,10 @@
 {
-  "version": "29.9.19",
+  "version": "29.9.20",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.19/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "b9468eeb6f9859443833e7f53c48050b4e4cfe0c06f0caa3247d0f2ca8e81d15",
-  "size_bytes": 11932421,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.20/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "49d3f0597dda8f67f6d01454969f9c5d0aa41b225e51b9c43c0cf46d11e4149b",
+  "size_bytes": 11932577,
   "required": false,
-  "published_at": "2026-09-02",
-  "notes": "V29.9.19 adds transparent local Vision telemetry to RAG Status: attempted, succeeded, failed, and elapsed page-analysis time for each refresh."
+  "published_at": "2026-09-03",
+  "notes": "V29.9.20 adds a Start Local VLM control to the Document AI Pipeline and stops retaining duplicate installer artifacts in GitHub Actions."
 }
