@@ -1,10 +1,10 @@
 {
-  "version": "29.9.21",
+  "version": "29.9.22",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.21/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "22dc42a289450ba8459bb7c8aad1f71a3775c3f19104d37861b209220525b4a3",
-  "size_bytes": 11932517,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.22/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "bd83913a1373faff5500cc89cf13da5c0022b2582c82ed81365099b79079c5b2",
+  "size_bytes": 11933079,
   "required": false,
   "published_at": "2026-09-03",
-  "notes": "V29.9.21 version bump."
+  "notes": "V29.9.22 version bump."
 }
