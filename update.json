@@ -1,10 +1,10 @@
 {
-  "version": "29.9.20",
+  "version": "29.9.21",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.20/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "49d3f0597dda8f67f6d01454969f9c5d0aa41b225e51b9c43c0cf46d11e4149b",
-  "size_bytes": 11932577,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.21/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "22dc42a289450ba8459bb7c8aad1f71a3775c3f19104d37861b209220525b4a3",
+  "size_bytes": 11932517,
   "required": false,
   "published_at": "2026-09-03",
-  "notes": "V29.9.20 adds a Start Local VLM control to the Document AI Pipeline and stops retaining duplicate installer artifacts in GitHub Actions."
+  "notes": "V29.9.21 version bump."
 }
