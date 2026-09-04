@@ -1,10 +1,10 @@
 {
-  "version": "29.9.27",
+  "version": "29.9.28",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.27/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "e6c551eec2a8d2ac2d360025d712e4092c7e18c58c47bbd7e0530834d2fee639",
-  "size_bytes": 11932665,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.28/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "2a5f1430b51fb5e01ed5b9adc79296805f88ccb7b8f1e0834c51d7058353e5c9",
+  "size_bytes": 11932289,
   "required": false,
   "published_at": "2026-09-04",
-  "notes": "Adds an optional verified NVIDIA CUDA 12.4 runtime for local AI, with automatic Vulkan fallback."
+  "notes": "Speeds RAG indexing by limiting local Vision to weak-OCR pages and fixes CUDA runtime installation by unloading the active VLM first."
 }
