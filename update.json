@@ -1,10 +1,10 @@
 {
-  "version": "29.9.28",
+  "version": "29.9.29",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.28/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "2a5f1430b51fb5e01ed5b9adc79296805f88ccb7b8f1e0834c51d7058353e5c9",
-  "size_bytes": 11932289,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.29/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "e13d988683385dc1b333a5fe8bbee3ed9c13d1a2c0cb7cd66eb3013116020882",
+  "size_bytes": 11932653,
   "required": false,
   "published_at": "2026-09-04",
-  "notes": "Speeds RAG indexing by limiting local Vision to weak-OCR pages and fixes CUDA runtime installation by unloading the active VLM first."
+  "notes": "Clearly reports the active Local VLM backend, including whether NVIDIA CUDA is actually running."
 }
