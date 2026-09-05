@@ -1,9 +1,9 @@
 {
-  "version": "30.0.2",
+  "version": "30.0.3",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.2/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "929291679b9c52ae0ce24d4230c684d960db01001b297757d3e287626457109f",
-  "size_bytes": 11931636,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.3/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "e17edb4516e9f0bb51d974f3b8515c14a19d85aae81aa21239a61a9e6e49b5e0",
+  "size_bytes": 11931476,
   "required": false,
   "published_at": "2026-09-05",
   "notes": "Adds authenticated multi-computer compute workers, automatic scheduling and failover, distributed OCR/vision/embeddings, privacy controls, audit activity, and optional sign-in workers."
