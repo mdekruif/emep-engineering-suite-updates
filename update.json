@@ -1,10 +1,10 @@
 {
-  "version": "29.9.30",
+  "version": "30.0.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.30/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "c9b0333bd2054ab4df3bbc115f5f1e975202bfb4d0f2b5f592263188d70a7c3d",
-  "size_bytes": 11933196,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "f6987e6eec78a6866531eb18699a3693c7a97d74df5e9d06ada5ecddc9ec5eb7",
+  "size_bytes": 11930427,
   "required": false,
   "published_at": "2026-09-05",
-  "notes": "Clearly reports the active Local VLM backend, including whether NVIDIA CUDA is actually running."
+  "notes": "Adds authenticated multi-computer compute workers, automatic scheduling and failover, distributed OCR/vision/embeddings, privacy controls, audit activity, and optional sign-in workers."
 }
