@@ -1,10 +1,10 @@
 {
-  "version": "29.9.29",
+  "version": "29.9.30",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.29/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "e13d988683385dc1b333a5fe8bbee3ed9c13d1a2c0cb7cd66eb3013116020882",
-  "size_bytes": 11932653,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v29.9.30/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "c9b0333bd2054ab4df3bbc115f5f1e975202bfb4d0f2b5f592263188d70a7c3d",
+  "size_bytes": 11933196,
   "required": false,
-  "published_at": "2026-09-04",
+  "published_at": "2026-09-05",
   "notes": "Clearly reports the active Local VLM backend, including whether NVIDIA CUDA is actually running."
 }
