@@ -1,10 +1,10 @@
 {
-  "version": "30.0.10",
+  "version": "30.0.11",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.10/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "cb351a129b5d79562ed818668a387e56cc25e4074b13595f1dd40fd788634110",
-  "size_bytes": 11932738,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.11/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "0df9826afc2c57294fe308203f022e996e055f9301b99685fe32da1da4666811",
+  "size_bytes": 11932076,
   "required": false,
   "published_at": "2026-09-07",
-  "notes": "Moves manual Ops Drive RAG updates and unread-file retries into isolated helper processes, so the EMEP UI stays responsive and a stalled indexer can be restarted without restarting the application."
+  "notes": "Adds live Ops Drive scan progress and heartbeats during RAG directory traversal, separating well discovery from file scanning so long network-share walks are visible instead of appearing stalled."
 }
