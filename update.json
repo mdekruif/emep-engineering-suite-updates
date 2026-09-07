@@ -1,10 +1,10 @@
 {
-  "version": "30.0.12",
+  "version": "30.0.13",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.12/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "d71e0b591d206567cbf88c33e92ff0edc73412ba1adef5ab93f7c7d0b4d4398a",
-  "size_bytes": 11931106,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.13/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "bc2b79503ca15ecc47278d3e4473def3b38d820f288bba3c93052624146532d6",
+  "size_bytes": 11930982,
   "required": false,
   "published_at": "2026-09-07",
-  "notes": "Hardens RAG extraction monitoring: queued files never time out before they run, long OCR work remains attached until its result is committed, and ZIP members stay in native/OCR extraction so deferred Vision remains single-lane."
+  "notes": "Speeds Ops Drive RAG scans by using SMB-efficient directory-entry metadata instead of a second file stat round trip, with live progress through directory-heavy portions of the share."
 }
