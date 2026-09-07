@@ -1,10 +1,10 @@
 {
-  "version": "30.0.4",
+  "version": "30.0.7",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.4/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "f9b076145630c5dd0506e482e239037097247050a8385506a93538c62d0ea68a",
-  "size_bytes": 11933058,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.7/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "efbe8882d40fbbc14232a0b36deba6e8e21108c6aa71f7a84fb6bc46db32f96f",
+  "size_bytes": 11932874,
   "required": false,
-  "published_at": "2026-09-06",
+  "published_at": "2026-09-07",
   "notes": "Accelerates Ops Drive RAG with three concurrent extraction/OCR workers while retaining a single transactional writer, per-file checkpoints, restart recovery, and two parallel local-VLM slots."
 }
