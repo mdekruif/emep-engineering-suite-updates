@@ -1,10 +1,10 @@
 {
-  "version": "30.0.25",
+  "version": "30.0.28",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.25/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "17f5075e1f8f9483b691033d9b3bdb2b340fafcbc99db3ba883b74235731d54a",
-  "size_bytes": 11932756,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.28/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "59901255b11612b9d9125f2870fdb8d0117d6f3c4d1e7178f0bc082006ee7339",
+  "size_bytes": 11932305,
   "required": false,
   "published_at": "2026-09-08",
-  "notes": "Keeps the Ops RAG Vision queue filled across the local model and enrolled GPU workers: base OCR is committed first, then one independent document per compute lane is enriched without duplicate page assignments. SQLite writes remain serialized."
+  "notes": "Adds a durable SQLite folder manifest: each Ops Drive folder's direct contents are checked and unchanged files are skipped while nested folders continue to be verified. Saved document-analysis work still resumes before a full drive scan."
 }
