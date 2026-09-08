@@ -1,10 +1,10 @@
 {
-  "version": "30.0.13",
+  "version": "30.0.16",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.13/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "bc2b79503ca15ecc47278d3e4473def3b38d820f288bba3c93052624146532d6",
-  "size_bytes": 11930982,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.16/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "0b6943300c906b1f8d6900a1ce56e8411ea0486a141984ea11f0b8910b221934",
+  "size_bytes": 11932019,
   "required": false,
-  "published_at": "2026-09-07",
-  "notes": "Speeds Ops Drive RAG scans by using SMB-efficient directory-entry metadata instead of a second file stat round trip, with live progress through directory-heavy portions of the share."
+  "published_at": "2026-09-08",
+  "notes": "Speeds Ask Data and RAG: caches matching embedders per index version, uses exact well filtering for group casing questions, batches index term updates, skips unchanged shared-index publishes, and verifies files did not change while fingerprinting."
 }
