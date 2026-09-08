@@ -1,9 +1,9 @@
 {
-  "version": "30.0.16",
+  "version": "30.0.17",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.16/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "0b6943300c906b1f8d6900a1ce56e8411ea0486a141984ea11f0b8910b221934",
-  "size_bytes": 11932019,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.17/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "fa4a1086db462f611e8eaa5612d42ece3e0e167e5e66d078776057a9ae769931",
+  "size_bytes": 11931698,
   "required": false,
   "published_at": "2026-09-08",
   "notes": "Speeds Ask Data and RAG: caches matching embedders per index version, uses exact well filtering for group casing questions, batches index term updates, skips unchanged shared-index publishes, and verifies files did not change while fingerprinting."
