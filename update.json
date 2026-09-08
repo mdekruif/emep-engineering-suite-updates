@@ -1,10 +1,10 @@
 {
-  "version": "30.0.24",
+  "version": "30.0.25",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.24/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "5e9b51811213cd39e0fae97bfb37d816423b6f79c8078ba480ee2783fe1df448",
-  "size_bytes": 11931713,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.25/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "17f5075e1f8f9483b691033d9b3bdb2b340fafcbc99db3ba883b74235731d54a",
+  "size_bytes": 11932756,
   "required": false,
   "published_at": "2026-09-08",
-  "notes": "Adds automatic private-network compute-fleet enrollment, GPU reporting, a Private-profile worker firewall rule, and verified Qwen3-VL worker-model staging without changing existing Local AI Model Manager selections. Newly enrolled computers are discovered while the app stays open, each page remains on its selected compute lane unless that lane fails, and current pressure readings follow ZD SCADA, then a labeled Snowflake/ProdView fallback, then Ops Drive."
+  "notes": "Keeps the Ops RAG Vision queue filled across the local model and enrolled GPU workers: base OCR is committed first, then one independent document per compute lane is enriched without duplicate page assignments. SQLite writes remain serialized."
 }
