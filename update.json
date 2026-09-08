@@ -1,10 +1,10 @@
 {
-  "version": "30.0.19",
+  "version": "30.0.20",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.19/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "7d726c74171adbf66b09fa8d767c583c28eabf388c14df4e3ec7064db0d5ca0e",
-  "size_bytes": 11932559,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.20/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "4cc45b7b4cd715ccb8f9ba75c6e17fe0856387a38afe0f7de9a5b82742869954",
+  "size_bytes": 11933048,
   "required": false,
   "published_at": "2026-09-08",
-  "notes": "Speeds Ask Data and RAG: caches matching embedders per index version, uses exact well filtering for group casing questions, batches index term updates, skips unchanged shared-index publishes, and verifies files did not change while fingerprinting."
+  "notes": "Adds automatic private-network compute-fleet enrollment, GPU reporting, a Private-profile worker firewall rule, and verified Qwen3-VL worker-model staging without changing existing Local AI Model Manager selections."
 }
