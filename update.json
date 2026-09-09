@@ -1,9 +1,9 @@
 {
-  "version": "30.0.30",
+  "version": "30.0.31",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.30/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "8a0c3a7fea74d407594d6e0e04f851c1183a976d77a671d34818a705b542e03b",
-  "size_bytes": 11932869,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.31/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "020aba8b201340ed9bc740f6bf3b2f47c23bb9e531c4f021ed0be41e5ffa85b6",
+  "size_bytes": 11932710,
   "required": false,
   "published_at": "2026-09-09",
   "notes": "Adds host-controlled private-LAN worker discovery and pairing for computers without Ops Drive access. Also indexes new and changed Ops Drive files before deferred document Vision work."
