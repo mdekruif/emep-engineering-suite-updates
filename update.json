@@ -1,10 +1,10 @@
 {
-  "version": "30.0.36",
+  "version": "30.0.37",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.36/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "57b89a16808be44cbcf6809c395b665ffef75daefb3c648fe8ba13801c41b1fa",
-  "size_bytes": 11929844,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.37/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "a866bb46867491d6dba80a7ae010689e9d7a592d584d709f75d1b162dae644e0",
+  "size_bytes": 11932781,
   "required": false,
   "published_at": "2026-09-09",
-  "notes": "Data Assistant now provides a chat-first experience with specialist routing for operations, documents, diagrams, engineering reasoning, and scripts."
+  "notes": "RAG indexing now safely defers stalled files, restarts stale helpers, and runs background helper launches without visible command windows."
 }
