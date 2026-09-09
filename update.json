@@ -1,10 +1,10 @@
 {
-  "version": "30.0.32",
+  "version": "30.0.36",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.32/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "aa65ed8cdaed1af95290b9575178852e652cb25921ee6065321de553b471fbca",
-  "size_bytes": 11932968,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.36/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "57b89a16808be44cbcf6809c395b665ffef75daefb3c648fe8ba13801c41b1fa",
+  "size_bytes": 11929844,
   "required": false,
   "published_at": "2026-09-09",
-  "notes": "Prevents a hung large-file extraction from stalling the Ops Drive index: it times out after two minutes, is queued for retry, and indexing continues."
+  "notes": "Data Assistant now provides a chat-first experience with specialist routing for operations, documents, diagrams, engineering reasoning, and scripts."
 }
