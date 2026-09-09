@@ -1,10 +1,10 @@
 {
-  "version": "30.0.28",
+  "version": "30.0.29",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.28/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "59901255b11612b9d9125f2870fdb8d0117d6f3c4d1e7178f0bc082006ee7339",
-  "size_bytes": 11932305,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.29/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "da19327e7a03d6be2fc1206a656cfb95048d6f4fb30dbed43a68c4158df22aa3",
+  "size_bytes": 11931786,
   "required": false,
-  "published_at": "2026-09-08",
-  "notes": "Adds a durable SQLite folder manifest: each Ops Drive folder's direct contents are checked and unchanged files are skipped while nested folders continue to be verified. Saved document-analysis work still resumes before a full drive scan."
+  "published_at": "2026-09-09",
+  "notes": "Indexes new and changed Ops Drive files before deferred document Vision work. Readable non-visual documents are marked checked without a model call, while weak scanned pages stay saved for later bounded analysis."
 }
