@@ -1,10 +1,10 @@
 {
-  "version": "30.0.37",
+  "version": "30.0.38",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.37/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "a866bb46867491d6dba80a7ae010689e9d7a592d584d709f75d1b162dae644e0",
-  "size_bytes": 11932781,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.38/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "95af6986c36b1987970c706ad8227a1d2986a3d24c79c0851f2d3e5f04ce789c",
+  "size_bytes": 11930469,
   "required": false,
-  "published_at": "2026-09-09",
-  "notes": "RAG indexing now safely defers stalled files, restarts stale helpers, and runs background helper launches without visible command windows."
+  "published_at": "2026-09-10",
+  "notes": "RAG indexing now uses a single supervised worker, parallel bounded SMB discovery, separate liveness and progress watchdogs, and automatic recovery from stalled native readers."
 }
