@@ -1,10 +1,10 @@
 {
-  "version": "30.0.38",
+  "version": "30.1.0",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.0.38/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "95af6986c36b1987970c706ad8227a1d2986a3d24c79c0851f2d3e5f04ce789c",
-  "size_bytes": 11930469,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.1.0/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "9958af48b7008ac4ce1c31b23dfadbceeb3c573e2a00f9d7269d8d26de7c8b4b",
+  "size_bytes": 11932718,
   "required": false,
   "published_at": "2026-09-10",
-  "notes": "RAG indexing now uses a single supervised worker, parallel bounded SMB discovery, separate liveness and progress watchdogs, and automatic recovery from stalled native readers."
+  "notes": "RAG Vision now prioritizes the local VLM over fleet OCR and overlaps saved-document Vision analysis with ongoing OCR and discovery."
 }
