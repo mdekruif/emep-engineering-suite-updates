@@ -1,9 +1,9 @@
 {
-  "version": "30.1.5",
+  "version": "30.1.6",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.1.5/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "8dafab8104573326c1aef453347c78be0ccd2f1d6a2bcbfe2b54b1380a29511d",
-  "size_bytes": 11932190,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.1.6/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "4509184695b1cf2bf40cbdaab4932fb78d574754a82e4ea2dc747073116731f0",
+  "size_bytes": 11931832,
   "required": false,
   "published_at": "2026-09-11",
   "notes": "Makes Ops Drive RAG status distinguish work from a hang, isolates hash/OCR/Word and SMB scans in killable per-file processes, defers legacy .doc files to a local backlog lane, backs off failed folders individually, and publishes searchable checkpoints without waiting for Vision or shared-index compaction."
