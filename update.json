@@ -1,9 +1,9 @@
 {
-  "version": "30.1.18",
+  "version": "30.1.19",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.1.18/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "9044dd91f8377acea97fcc02c9711e4716bf5f61dae9463f9f366b215bd6f4f4",
-  "size_bytes": 11955905,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.1.19/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "b57b3e447fbfc26d0f90259cbd4682eb564ad85561b0b4a0122cb1b8f1d3de5a",
+  "size_bytes": 11956541,
   "required": false,
   "published_at": "2026-09-14",
   "notes": "Adds UI controls for Qwen context and generated-output token limits, including model-specific native and extended context guidance."
