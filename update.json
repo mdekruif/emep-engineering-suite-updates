@@ -1,9 +1,9 @@
 {
-  "version": "30.2.11",
+  "version": "30.2.12",
   "release_url": "https://github.com/mdekruif/emep-engineering-suite/releases/latest",
-  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.2.11/EMEP_Engineering_Suite_Setup.exe",
-  "sha256": "3282aefd52739df44739d5393135a6f7bc1a3b1f1eb6e2fefddc5ed477952c39",
-  "size_bytes": 12058936,
+  "download_url": "https://github.com/mdekruif/emep-engineering-suite-updates/releases/download/v30.2.12/EMEP_Engineering_Suite_Setup.exe",
+  "sha256": "7081d790fc64a69b29b92fe6f5c3b6dca10f06e4e0b75b7e0678f4a17323dfc7",
+  "size_bytes": 12058538,
   "required": false,
   "published_at": "2026-10-22",
   "notes": "Drilling Intelligence: PH laterals are Parkman by the company well-name rule without a second formation click; slide sheets are operation-state truth; one-card-one-decision Review tab with thumbs up / down / edit / skip; MSE issues list with confirmable torque units and bit diameters; display-only smashed Parkman lateral pane; context strip with archive BHA and survey geometry; every watch channel shown present, missing, or not checked."
